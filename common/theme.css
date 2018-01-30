@@ -5,6 +5,9 @@
   --color-secondary-dark: #333;
   --color-grey-medium: #f3f3f3;
   --color-grey-light: #fafafa;
+  --font-primary: "Roboto", sans-serif;
+}
 
-  --font-primary: Roboto, sans-serif;
+html {
+  font-family: var(--font-primary);
 }
