@@ -1,13 +1,73 @@
 :root {
   --color-primary: #00953b;
+  --color-primary-light: #7ccb99;
   --color-primary-dark: #034b26;
   --color-secondary: #666;
   --color-secondary-dark: #333;
   --color-grey-medium: #f3f3f3;
   --color-grey-light: #fafafa;
   --font-primary: "Roboto", sans-serif;
+  --font-weight-medium: 500;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 html {
   font-family: var(--font-primary);
+  color: var(--color-secondary);
+  background-color: var(--color-grey-medium);
+}
+
+h1 {
+  color: var(--color-primary);
+}
+
+h2 {
+
+}
+
+h3 {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+h4{
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+h6 {
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: .1em solid var(--color-primary-light);
+  transition:
+    color .25s,
+    border-color .25s;
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+mark {
+  background-color: var(--color-primary-light);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.font-medium {
+  font-weight: 500;
 }
