@@ -25,16 +25,12 @@ h1 {
   color: var(--color-primary);
 }
 
-h2 {
-
-}
-
 h3 {
   color: var(--color-primary);
   font-weight: 500;
 }
 
-h4{
+h4 {
   font-weight: 500;
 }
 
