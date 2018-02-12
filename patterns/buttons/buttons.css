@@ -1,11 +1,12 @@
 .btn {
-  padding: .125em .85em;
+  padding: .375em 1.275em;
   background-color: var(--color-primary);
   border: 2px solid var(--color-primary);
   transition:
     background-color .25s,
     border-color .25s,
     color .25s;
+  font-weight: 500;
 }
 
 .btn:hover,

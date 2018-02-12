@@ -7,7 +7,8 @@
   --color-grey-medium: #f3f3f3;
   --color-grey-light: #fafafa;
   --font-primary: "Roboto", sans-serif;
-  --font-weight-medium: 500;
+  --shadow-primary: -1px 3px 8px rgba(0, 0, 0, .15);
+  --shadow-secondary: -1px 3px 8px rgba(0, 0, 0, .35);
 }
 
 ::selection {

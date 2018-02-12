@@ -1,0 +1,71 @@
+
+.i-logo {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.i-social {
+  width: .75rem;
+  height: .75rem;
+}
+
+.footer a {
+  color: var(--color-secondary);
+  border: none;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: var(--color-primary);
+}
+
+.footer {
+  text-align: center;
+}
+
+.nav-social a {
+  color: var(--color-primary);
+  border: none;
+}
+
+.nav-social a:hover,
+.nav-social a:focus,
+.nav-social a:active {
+  color: var(--color-secondary);
+}
+
+ul.xs-hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+  .unit:first-child {
+    text-align: left;
+  }
+
+  .unit:last-child {
+    text-align: right;
+  }
+
+  ul.xs-hidden {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 45em) {
+
+  .i-logo {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .i-social {
+    width: 1rem;
+    height: 1rem;
+  }
+
+}

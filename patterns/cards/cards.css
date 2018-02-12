@@ -1,5 +1,5 @@
 .card {
-  box-shadow: -1px 3px 8px rgba(0, 0, 0, .15);
+  box-shadow: var(--shadow-primary);
   transition: box-shadow .25s;
   border-bottom: 2px solid var(--color-primary);
   background-color: #fff;
@@ -10,7 +10,7 @@
 .card:hover,
 .card:active,
 .card:focus {
-  box-shadow: -1px 3px 8px rgba(0, 0, 0, .35);
+  box-shadow: var(--shadow-secondary);
   border-color: var(--color-primary);
   color: var(--color-secondary);
 }

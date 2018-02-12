@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Header</title>
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="header.css" rel="stylesheet">
+</head>
+<body>
+  <header class="masthead">
+    <div class="grid grid-middle wrapper island-1-2">
+      <input type="checkbox" id="nav-check" class="nav-check" aria-label="On mobile devices, press to open navigation.">
+      <div class="unit [ xs-1-2 m-3-4 ]">
+        <a href="#">
+          <i class="icon i-logo">
+            <img src="../../images/logo.svg" alt="">
+          </i>
+          <span class="icon-label giga push-r-1-2"><b>Top</b>Table</span>
+        </a>
+        <nav>
+          <ul class="list-group push-0">
+            <li class="island-1-2"><a href="#">Products</a></li>
+            <li class="island-1-2"><a href="#">Deals</a></li>
+            <li class="island-1-2"><a href="#">News</a></li>
+            <li class="island-1-2"><a href="#">Community</a></li>
+            <li class="ml-hidden">
+              <ul class="list-group-inline push-0 pad-t-1-2 pad-b-1-2">
+                <li class="island-1-2">
+                  <a href="#">
+                    <i class="icon i-social">
+                      <svg><use xlink:href="../../images/icons.svg#search" /></svg>
+                    </i>
+                  </a>
+                </li>
+                <li class="island-1-2">
+                  <a href="#">
+                    <i class="icon i-social">
+                      <svg><use xlink:href="../../images/icons.svg#profile" /></svg>
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <ul class="list-group-inline push-0 text-right unit [ xs-1-2 m-1-4 ]">
+        <li class="island-1-4 valign-middle xs-hidden search-container relative">
+          <label class="search-label" for="search">
+            <i class="icon i-social">
+              <svg><use xlink:href="../../images/icons.svg#search" /></svg>
+            </i>
+          </label>
+          <input type="search" class="search" id="search" name="search">
+        </li>
+        <li class="island-1-4 valign-middle">
+          <a href="#">
+            <i class="icon i-social">
+              <svg><use xlink:href="../../images/icons.svg#cart" /></svg>
+            </i>
+          </a>
+        </li>
+        <li class="island-1-4 valign-middle xs-hidden">
+          <a href="#">
+            <i class="icon i-social">
+              <svg><use xlink:href="../../images/icons.svg#profile" /></svg>
+            </i>
+          </a>
+        </li>
+        <li class="valign-middle nav-tog">
+          <label class="nav-label" for="nav-check" tabindex="-1">
+            <span class="tog top"></span>
+            <span class="tog middle"></span>
+            <span class="tog bottom"></span>
+          </label>
+        </li>
+      </ul>
+    </div>
+  </header>
+</body>
+</html>
