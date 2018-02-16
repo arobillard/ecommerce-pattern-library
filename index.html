@@ -18,7 +18,7 @@
       }
 
     body {
-      background-color: #fff;
+      background-color: #f3f3f3;
     }
   </style>
     <link href="https://fonts.googleapis.com/css?family&#x3D;Roboto:400,400i,500,700" rel="stylesheet">
@@ -151,6 +151,16 @@
                   <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="footer" href="#footer">
                     <div class="relative">
                       <span>Footer</span>
+                      <i class="icon i-18 absolute pin-cr">
+                        <svg><use xlink:href="#icon-active" /></svg>
+                      </i>
+                    </div>
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="forms" href="#forms">
+                    <div class="relative">
+                      <span>Forms</span>
                       <i class="icon i-18 absolute pin-cr">
                         <svg><use xlink:href="#icon-active" /></svg>
                       </i>
@@ -761,6 +771,10 @@
         </ul>
   </div>
 
+      <div class="pattern-desc milli island" style="">
+        <div class="max-length"><p>This banner is used on the home page to highlight the most important featured special.</p>
+</div>
+      </div>
 
   
 
@@ -832,7 +846,7 @@
     <div class="pattern-desc milli island" style="">
       <div class="max-length"><p>The buttons use the primary colour to highlight the buttons, allowing them to stand out.</p>
 <ul>
-<li>The regular buttons is to be used in standard sections and after large blocks of text.</li>
+<li>The primary button is to be used in standard sections and after large blocks of text.</li>
 <li>The secondary buttons are for coloured backgrounds or to create contrast for emphasis.</li>
 <li>The ghost button is used on banners and cards.</li>
 </ul>
@@ -871,7 +885,7 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="buttons-buttons-code-sample-copy-chunk">&lt;a class="btn" href="#"&gt;Standard Button&lt;/a>
+              <code><pre id="buttons-buttons-code-sample-copy-chunk">&lt;a class="btn" href="#"&gt;Primary Button&lt;/a>
 &lt;a class="btn btn-secondary" href="#">Secondary Button&lt;/a>
 &lt;a class="btn btn-ghost" href="#">Ghost Button&lt;/a>
 </pre></code>
@@ -894,10 +908,10 @@
       </nav>
   </div>
 
-      <div class="pattern-desc milli island" >
-        <div class="max-length"><p>The category card is used on the home page to preview the different category of products that are available.</p>
+    <div class="pattern-desc milli island" >
+      <div class="max-length"><p>  Cards are used to present important pieces of information such as products or deals. They are used to give the user a preview and an easy link to more information.</p>
 </div>
-      </div>
+    </div>
 
   
 
@@ -928,7 +942,7 @@
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
+          <div class="resizeable-pattern relative" style="width:600px">
             <i class="icon i-48 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
             <iframe data-src="patterns/cards/category-cards.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
               <div class="resizeable-pattern-length">
@@ -991,7 +1005,7 @@
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
+          <div class="resizeable-pattern relative" style="width:600px">
             <i class="icon i-48 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
             <iframe data-src="patterns/cards/preview-card.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
               <div class="resizeable-pattern-length">
@@ -1060,7 +1074,7 @@
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
+          <div class="resizeable-pattern relative" style="width:500px">
             <i class="icon i-48 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
             <iframe data-src="patterns/cards/product-card.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
               <div class="resizeable-pattern-length">
@@ -1244,6 +1258,326 @@
 
 </section>
 
+        <section class="pattern" id="forms" role="tabpanel" hidden aria-hidden="true" >
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
+    <h2 class="pattern-name exa push-1-4" style="color: #00953b;">Forms</h2>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#forms-numbers">Numbers</a></li>
+            <li><a href="#forms-select">Select</a></li>
+            <li><a href="#forms-text-area">Text area</a></li>
+            <li><a href="#forms-text">Text</a></li>
+        </ol>
+      </nav>
+  </div>
+
+      <div class="pattern-desc milli island" >
+        <div class="max-length"><p>Basic form input used for numbers.</p>
+</div>
+      </div>
+
+  
+
+    <div class="pattern-details" id="forms-numbers" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Numbers</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-numbers-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/numbers.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>Basic form input used for numbers.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="width:400px">
+            <i class="icon i-48 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/numbers.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-numbers-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-numbers-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-numbers-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+  &lt;div class="push">
+    &lt;input type="number" class="push-1-2" id="number-input" name="number-input" required>
+    &lt;label for="number-input">Number Input&lt;/label>
+    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please fill out this required field.&lt;/span>
+    &lt;/p>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-select" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Select</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-select-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/select.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>Drop down menu for selecting a specific option.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="width:400px">
+            <i class="icon i-48 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/select.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-select-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-select-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-select-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive pad-t-1-2">
+    &lt;h3 class="push-0">
+        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+  &lt;div class="push">
+    &lt;select class="push-1-2" id="text-input" name="text-input" required>
+      &lt;option selected>Select an option&lt;/option>
+      &lt;option>Option 1&lt;/option>
+      &lt;option>Option 2&lt;/option>
+      &lt;option>Option 3&lt;/option>
+    &lt;/select>
+    &lt;label for="text-input">Select an item.&lt;/label>
+    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please fill out this required field.&lt;/span>
+    &lt;/p>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-text-area" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Text area</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-text-area-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/text-area.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>Text input for large amounts of type. For example large paragraph responses, instructions, or reviews.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="width:400px">
+            <i class="icon i-48 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/text-area.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-text-area-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-text-area-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-text-area-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+  &lt;div class="push">
+    &lt;textarea class="push-1-2" id="text-area" name="text-area" required>&lt;/textarea>
+    &lt;label for="text-area">Text Area&lt;/label>
+    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please fill out this required field.&lt;/span>
+    &lt;/p>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-text" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Text</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-text-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/text.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>Basic form input used for text.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="width:400px">
+            <i class="icon i-48 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/text.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-text-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-text-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-text-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive pad-t-1-2">
+    &lt;h3 class="push-0">
+        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+  &lt;div class="push">
+    &lt;input class="push-1-2" id="text-input" name="text-input" required>
+    &lt;label for="text-input">Text Input&lt;/label>
+    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please fill out this required field.&lt;/span>
+    &lt;/p>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="header" role="tabpanel" hidden aria-hidden="true" style="">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
     <h2 class="pattern-name exa push-1-4" style="color: #00953b;">Header</h2>
@@ -1336,12 +1670,12 @@
     &lt;/div>
     &lt;ul class="list-group-inline push-0 text-right unit [ xs-1-2 m-1-4 ]">
       &lt;li class="island-1-4 valign-middle xs-hidden search-container relative">
+        &lt;input type="search" class="search milli" id="search" name="search" required>
         &lt;label class="search-label" for="search">
           &lt;i class="icon i-social">
               &lt;svg>&lt;use xlink:href="../../images/icons.svg#search"/>&lt;/svg>
             &lt;/i>
         &lt;/label>
-        &lt;input type="search" class="search" id="search" name="search">
       &lt;/li>
       &lt;li class="island-1-4 valign-middle">
         &lt;a href="#">
@@ -1523,7 +1857,7 @@
     :root {
       --color-patternbot-interface: 0;
       --color-patternbot-interface-opposite: 255;
-      --color-patternbot-background: #fff;
+      --color-patternbot-background: #f3f3f3;
     }
   </script>
 
@@ -1531,7 +1865,7 @@
     var patternbotInterfaceColours = {
       primary: 0,
       opposite: 255,
-      background: '#fff',
+      background: '#f3f3f3',
     };
   </script>
 

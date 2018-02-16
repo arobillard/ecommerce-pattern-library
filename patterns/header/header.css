@@ -137,7 +137,7 @@ li.xs-hidden {
 
   .search-label .icon {
     z-index: 1000;
-    transition: transform .25s;
+    transition: transform .35s;
   }
 
   [type="search"].search {
@@ -146,37 +146,34 @@ li.xs-hidden {
     top: 50%;
     transform: translateY(-50%);
     width: 0;
-    z-index: 5;
     opacity: 0;
     transition:
-      width .25s,
-      opacity .5s;
+      width .35s,
+      opacity .35s;
+    border-bottom: 2px solid var(--color-grey-medium);
   }
 
   .search-container:hover [type="search"].search,
+  [type="search"].search:valid,
   [type="search"].search:active,
   [type="search"].search:focus {
     width: 10rem;
     opacity: 1;
-    padding-right: 2rem;
+    padding-left: 2rem;
   }
 
   .search-container:hover .search-label .icon,
-  .search:active ~ .search-label .icon,
-  .search:focus ~ .search-label .icon {
-    transform: translateX(-7.9rem);
+  [type="search"].search:valid + .search-label .icon,
+  [type="search"].search:hover + .search-label .icon,
+  [type="search"].search:active + .search-label .icon,
+  [type="search"].search:focus + .search-label .icon {
+    transform: translateX(-7.9rem) scale(.8);
   }
 
   nav {
     height: calc(100vh - 3.7466rem);
     top: 3.7466rem;
   }
-
-
-}
-
-@media only screen and (min-width: 47em) {
-
 
   .i-logo {
     width: 3rem;

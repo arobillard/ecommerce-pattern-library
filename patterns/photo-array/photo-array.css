@@ -17,3 +17,11 @@
 .photo-input-4:checked ~ .grid .photo-4 .photo-array-btn {
   box-shadow: var(--shadow-secondary);
 }
+
+.photo-input-1:focus ~ .grid .photo-1 .photo-array-btn,
+.photo-input-2:focus ~ .grid .photo-2 .photo-array-btn,
+.photo-input-3:focus ~ .grid .photo-3 .photo-array-btn,
+.photo-input-4:focus ~ .grid .photo-4 .photo-array-btn {
+  outline: 3px solid #000;
+  outline-offset: 0;
+}

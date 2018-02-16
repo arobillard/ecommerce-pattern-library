@@ -1,4 +1,5 @@
 ---
+backgroundColor: '#f3f3f3'
 name: TopTable
 fontUrl: "https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700"
 fonts:
