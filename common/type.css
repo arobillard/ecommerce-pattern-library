@@ -218,7 +218,8 @@ h3,
 }
 
 h4,
-.giga {
+.giga,
+nav .kilo {
   font-size: 1.44rem;
   line-height: 1.95rem;
 }
@@ -537,7 +538,8 @@ legend {
   h6,
   .kilo,
   input,
-  textarea {
+  textarea,
+  nav .kilo {
     font-size: 1rem;
     line-height: 1.4rem;
   }
@@ -864,7 +866,8 @@ legend {
   h6,
   .kilo,
   input,
-  textarea {
+  textarea,
+  nav .kilo {
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -1191,7 +1194,8 @@ legend {
   h6,
   .kilo,
   input,
-  textarea {
+  textarea,
+  nav .kilo {
     font-size: 1rem;
     line-height: 1.5rem;
   }

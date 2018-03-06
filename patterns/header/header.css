@@ -43,12 +43,21 @@
   border: none;
   border-radius: none;
   padding: 0;
+  vertical-align: middle;
 }
 
-.nav-label:hover {
+.nav-label:hover,
+.nav-label:focus,
+.nav-label:active {
   background-color: transparent;
   border: none;
   border-radius: none;
+}
+
+.nav-label:hover .tog,
+.nav-label:focus .tog,
+.nav-label:active .tog {
+  background-color: var(--color-primary)
 }
 
 .tog {
@@ -58,7 +67,7 @@
   position: absolute;
   left: 0;
   border-radius: 5px;
-  transition: opacity .5s, transform .5s, left .5s, top .5s, bottom .5s;
+  transition: background-color .23s, opacity .25s, transform .25s, left .25s, top .25s, bottom .25s;
 }
 
 .top {
