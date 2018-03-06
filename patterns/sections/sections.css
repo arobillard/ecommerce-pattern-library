@@ -1,0 +1,43 @@
+.photo-array-input-1:checked ~ .grid .photo-array-main-1,
+.photo-array-input-2:checked ~ .grid .photo-array-main-2,
+.photo-array-input-3:checked ~ .grid .photo-array-main-3,
+.photo-array-input-4:checked ~ .grid .photo-array-main-4 {
+  z-index: 1000;
+}
+
+.photo-array-btn,
+.photo-array-main .embed {
+  border-bottom: 1px solid var(--color-primary);
+  box-shadow: var(--shadow-primary);
+}
+
+.photo-array-input-1:checked ~ .grid .photo-array-1 .photo-array-btn,
+.photo-array-input-2:checked ~ .grid .photo-array-2 .photo-array-btn,
+.photo-array-input-3:checked ~ .grid .photo-array-3 .photo-array-btn,
+.photo-array-input-4:checked ~ .grid .photo-array-4 .photo-array-btn {
+  box-shadow: var(--shadow-secondary);
+}
+
+.photo-array-input-1:focus ~ .grid .photo-array-1 .photo-array-btn,
+.photo-array-input-2:focus ~ .grid .photo-array-2 .photo-array-btn,
+.photo-array-input-3:focus ~ .grid .photo-array-3 .photo-array-btn,
+.photo-array-input-4:focus ~ .grid .photo-array-4 .photo-array-btn {
+  outline: 3px solid #000;
+  outline-offset: 0;
+}
+
+section {
+  box-shadow: var(--shadow-primary);
+  transition: box-shadow .25s;
+  border-bottom: 2px solid var(--color-primary);
+  color: var(--color-secondary);
+  display: block;
+}
+
+.section-light {
+  background-color: #fff;
+}
+
+.section-medium {
+  background-color: var(--color-grey-light);
+}

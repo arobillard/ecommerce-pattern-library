@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Preview Card</title>
+  <title>Forms - Checkbox</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,20 +11,17 @@
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
   <link href="../buttons/buttons.css" rel="stylesheet">
-  <link href="cards.css" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
 </head>
-<body>
-  <a class="card relative" href="#">
-    <div class="embed embed-3by2">
-      <img class="embed-item" src="https://placehold.it/600x400" alt="">
+<body style="padding: 1rem;">
+  <form method="post" action="#" novalidate>
+    <div class="push">
+      <input class="push-1-2" id="checked" name="checkbox-button-checked" type="checkbox" checked>
+      <label for="checked">Checked</label>
     </div>
-    <div class="absolute island-1-2 pin-tl">
-      <h3 class="push-0">Get 25% Off</h3>
-      <p>Catan and other titles.</p>
-      <div>
-        <span class="btn btn-ghost" href="#">Shop Now</span>
-      </div>
+      <input class="push-1-2" id="unchecked" name="checkbox-button-unchecked" type="checkbox">
+      <label for="unchecked">Unchecked</label>
     </div>
-  </a>
+  </form>
 </body>
 </head>

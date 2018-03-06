@@ -1,0 +1,62 @@
+.category-selector .unit {
+  filter: grayscale(1);
+  transition: filter .25s;
+}
+
+.category-selector .unit:hover {
+  filter: grayscale(.5);
+}
+
+.category-sales:checked ~ .category-selector .unit[for="category-sales"],
+.category-board-games:checked ~ .category-selector .unit[for="category-board-games"],
+.category-card-games:checked ~ .category-selector .unit[for="category-card-games"],
+.category-rpgs:checked ~ .category-selector .unit[for="category-rpgs"],
+.category-dice:checked ~ .category-selector .unit[for="category-dice"],
+.category-accessories:checked ~ .category-selector .unit[for="category-accessories"] {
+  filter: none;
+  color: var(--color-primary);
+}
+
+.category-sales:focus ~ .category-selector .unit[for="category-sales"],
+.category-board-games:focus ~ .category-selector .unit[for="category-board-games"],
+.category-card-games:focus ~ .category-selector .unit[for="category-card-games"],
+.category-rpgs:focus ~ .category-selector .unit[for="category-rpgs"],
+.category-dice:focus ~ .category-selector .unit[for="category-dice"],
+.category-accessories:focus ~ .category-selector .unit[for="category-accessories"] {
+  outline: 3px solid #000;
+  outline-offset: 0;
+}
+
+.products select,
+.products label {
+  margin-bottom: .65rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .products h2 {
+    margin: 0;
+  }
+
+  .product-search-sort {
+    text-align: right;
+  }
+
+  .product-search-sort .unit:last-child {
+    padding-left: 1.4rem;
+  }
+
+  .products select,
+  .products label {
+    margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .product-search-sort .unit:last-child {
+    padding-left: 1.5rem;
+  }
+
+}

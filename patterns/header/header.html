@@ -16,13 +16,13 @@
 <body>
   <header class="masthead">
     <div class="grid grid-middle wrapper island-1-2">
-      <input type="checkbox" id="nav-check" class="nav-check" aria-label="On mobile devices, press to open navigation.">
+      <!-- <input type="checkbox" id="nav-check" class="nav-check" aria-label="On mobile devices, press to open navigation."> -->
       <div class="unit [ xs-1-2 m-3-4 ]">
         <a href="#">
           <i class="icon i-logo">
             <img src="../../images/logo.svg" alt="">
           </i>
-          <span class="icon-label giga push-r-1-2"><b>Top</b>Table</span>
+          <span class="icon-label giga push-r"><b>Top</b>Table</span>
         </a>
         <nav>
           <ul class="list-group push-0">
@@ -75,14 +75,16 @@
           </a>
         </li>
         <li class="valign-middle nav-tog">
-          <label class="nav-label" for="nav-check" tabindex="-1">
+          <button class="nav-label">
             <span class="tog top"></span>
             <span class="tog middle"></span>
             <span class="tog bottom"></span>
-          </label>
+          </button>
         </li>
       </ul>
     </div>
   </header>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="header.js"></script>
 </body>
 </html>
