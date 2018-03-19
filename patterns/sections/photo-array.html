@@ -13,40 +13,56 @@
   <link href="../buttons/buttons.css" rel="stylesheet">
   <link href="sections.css" rel="stylesheet">
 </head>
-<body>
-  <input id="photo-array-input-1" class="photo-array-input-1" type="radio" name="photo-array" checked>
-  <input id="photo-array-input-2" class="photo-array-input-2" type="radio" name="photo-array">
-  <input id="photo-array-input-3" class="photo-array-input-3" type="radio" name="photo-array">
-  <input id="photo-array-input-4" class="photo-array-input-4" type="radio" name="photo-array">
-  <div class="grid island-1-2">
+<body class="max-length">
+  <div class="grid island-1-2 photo-array">
     <div class="unit [ xs-1 ] photo-array-main island-1-2">
-      <div class="embed embed-1by1">
-        <img class="embed-item photo-array-main-4" src="https://placehold.it/400x400" alt="">
-        <img class="embed-item photo-array-main-3" src="https://placehold.it/300x300" alt="">
-        <img class="embed-item photo-array-main-2" src="https://placehold.it/200x200" alt="">
-        <img class="embed-item photo-array-main-1" src="https://placehold.it/100x100" alt="">
-      </div>
-    </div>
-    <div class="unit [ xs-1-4 ] photo-array-1 island-1-2">
-      <label class="photo-array-btn embed embed-1by1" for="photo-array-input-1">
+      <a class="embed embed-1by1 photo-array-active block" href="#photo-array-focus">
         <img class="embed-item" src="https://placehold.it/100x100" alt="">
-      </label>
+      </a>
     </div>
-    <div class="unit [ xs-1-4 ] photo-array-2 island-1-2">
-      <label class="photo-array-btn embed embed-1by1" for="photo-array-input-2">
+    <div class="unit [ xs-1-2 s-1-4 ] island-1-2">
+      <a class="photo-array-btn block photo-array-btn-selected embed embed-1by1" href="#photo-array-1">
+        <img class="embed-item" src="https://placehold.it/100x100" alt="">
+      </a>
+    </div>
+    <div class="unit [ xs-1-2 s-1-4 ] island-1-2">
+      <a class="photo-array-btn block embed embed-1by1" href="#photo-array-2">
         <img class="embed-item" src="https://placehold.it/200x200" alt="">
-      </label>
+      </a>
     </div>
-    <div class="unit [ xs-1-4 ] photo-array-3 island-1-2">
-      <label class="photo-array-btn embed embed-1by1" for="photo-array-input-3">
+    <div class="unit [ xs-1-2 s-1-4 ] island-1-2">
+      <a class="photo-array-btn block embed embed-1by1" href="#photo-array-3">
         <img class="embed-item" src="https://placehold.it/300x300" alt="">
-      </label>
+      </a>
     </div>
-    <div class="unit [ xs-1-4 ] photo-array-4 island-1-2">
-      <label class="photo-array-btn embed embed-1by1" for="photo-array-input-4">
+    <div class="unit [ xs-1-2 s-1-4 ] island-1-2">
+      <a class="photo-array-btn block embed embed-1by1" href="#photo-array-4">
         <img class="embed-item" src="https://placehold.it/400x400" alt="">
-      </label>
+      </a>
     </div>
   </div>
+  <div id="photo-array-focus" class="photo-array-focus">
+    <img src="https://placehold.it/100x100" alt="">
+    <a class="photo-array-focus-next" href="#">
+      <i class="icon i-3rem">
+        <svg><use xlink:href="../../images/icons.svg#next" /></svg>
+      </i>
+      <span class="icon-label hidden">Next</span>
+    </a>
+    <a class="photo-array-focus-previous" href="#">
+      <i class="icon i-3rem">
+        <svg><use xlink:href="../../images/icons.svg#previous" /></svg>
+      </i>
+      <span class="icon-label hidden">Previous</span>
+    </a>
+    <a class="photo-array-focus-close" href="#">
+      <i class="icon i-1-5rem">
+        <svg><use xlink:href="../../images/icons.svg#close" /></svg>
+      </i>
+      <span class="icon-label hidden">Close</span>
+    </a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../../js/main.js"></script>
 </body>
 </head>

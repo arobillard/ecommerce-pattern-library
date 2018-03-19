@@ -101,7 +101,6 @@ const patternBotIncludes = function (manifest) {
     for (i = 0; i < t; i++) {
       if (rootMatcher.test(allScripts[i].src)) {
         return allScripts[i].src.split(rootMatcher)[0];
-        break;
       }
     }
   };
@@ -143,7 +142,7 @@ const patternBotIncludes = function (manifest) {
     let patternInfoJson;
     const data = patternElem.innerText.trim();
 
-    if (!data) return {}
+    if (!data) return {};
 
     try {
       patternInfoJson = JSON.parse(data);
@@ -172,9 +171,50 @@ const patternBotIncludes = function (manifest) {
     };
   };
 
+  const correctHrefPaths = function (html) {
+    const hrefSearch = /href\s*=\s*"\.\.\/\.\.\//g;
+    const srcSearch = /src\s*=\s*"\.\.\/\.\.\//g;
+    const urlSearch = /url\((["']*)\.\.\/\.\.\//g;
+
+    return html
+      .replace(hrefSearch, 'href="../')
+      .replace(srcSearch, 'src="../')
+      .replace(urlSearch, 'url($1../')
+    ;
+  };
+
+  const buildAccurateSelectorFromElem = function (elem) {
+    let theSelector = elem.tagName.toLowerCase();
+
+    if (elem.id) theSelector += `#${elem.id}`;
+    if (elem.getAttribute('role')) theSelector += `[role="${elem.getAttribute('role')}"]`;
+    if (elem.classList.length > 0) theSelector += `.${[].join.call(elem.classList, '.')}`;
+
+    theSelector += ':first-of-type';
+
+    return theSelector;
+  };
+
+  /**
+   * This is an ugly mess: Blink does not properly render SVGs when using DOMParser alone.
+   * But, I need DOMParser to determine the correct element to extract.
+   *
+   * I only want to get the first element within the `<body>` tag of the loaded document.
+   * This dumps the whole, messy, HTML document into a temporary `<div>`,
+   * then uses the DOMParser version, of the same element, to create an accurate selector,
+   * then finds that single element in the temporary `<div>` using the selector and returns it.
+   */
   const htmlStringToElem = function (html) {
+    let theSelector = '';
+    const tmpDoc = document.createElement('div');
+    const finalTmpDoc = document.createElement('div');
     const doc = (new DOMParser()).parseFromString(html, 'text/html');
-    return doc.body;
+
+    tmpDoc.innerHTML = html;
+    theSelector = buildAccurateSelectorFromElem(doc.body.firstElementChild);
+    finalTmpDoc.appendChild(tmpDoc.querySelector(theSelector));
+
+    return finalTmpDoc;
   };
 
   const replaceElementValue = function (elem, sel, data) {
@@ -197,7 +237,7 @@ const patternBotIncludes = function (manifest) {
 
     if (!patternDetails.html) return;
 
-    patternOutElem = htmlStringToElem(patternDetails.html);
+    patternOutElem = htmlStringToElem(correctHrefPaths(patternDetails.html));
     patternData = getPatternInfo(patternElem);
 
     Object.keys(patternData).forEach((sel) => {
@@ -234,7 +274,7 @@ const patternBotIncludes = function (manifest) {
   };
 
   const hideLoadingScreen = function () {
-    const allDownloadedInterval = setInterval(() => {
+    let allDownloadedInterval = setInterval(() => {
       if (Object.values(downloadedAssets).includes(false)) return;
 
       clearInterval(allDownloadedInterval);
@@ -348,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library
- * @version 1520359988204
+ * @version 1521402887627
  */
-const patternManifest_1520359988203 = {
+const patternManifest_1521402887627 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -526,15 +566,20 @@ const patternManifest_1520359988203 = {
           "primary": 0,
           "opposite": 255
         }
-      }
+      },
+      "bodyRaw": "\nTopTable is a table top gaming company that puts the games first before anything else. We want to make sure our customers have easy and efficient access to their favourite games and new ones!\n",
+      "bodyBasic": "TopTable is a table top gaming company that puts the games first before anything else. We want to make sure our customers have easy and efficient access to their favourite games and new ones!"
     },
     "icons": [
       "cart",
+      "next",
       "facebook",
+      "previous",
       "instagram",
       "profile",
       "search",
-      "twitter"
+      "twitter",
+      "close"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -562,11 +607,13 @@ const patternManifest_1520359988203 = {
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/banners",
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/buttons",
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/checkout",
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/footer",
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms",
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/header",
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation",
-      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections"
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs"
     ],
     "pages": []
   },
@@ -680,6 +727,28 @@ const patternManifest_1520359988203 = {
           "namePretty": "Cards",
           "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
+        }
+      ]
+    },
+    {
+      "name": "checkout",
+      "namePretty": "Checkout",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/checkout",
+      "html": [
+        {
+          "name": "totals",
+          "namePretty": "Totals",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/checkout/totals.html",
+          "localPath": "patterns/checkout/totals.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "checkout",
+          "namePretty": "Checkout",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/checkout/checkout.css",
+          "localPath": "patterns/checkout/checkout.css"
         }
       ]
     },
@@ -835,6 +904,13 @@ const patternManifest_1520359988203 = {
       "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation",
       "html": [
         {
+          "name": "bread-crumbs",
+          "namePretty": "Bread crumbs",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation/bread-crumbs.html",
+          "localPath": "patterns/navigation/bread-crumbs.html",
+          "readme": {}
+        },
+        {
           "name": "product-categories",
           "namePretty": "Product categories",
           "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation/product-categories.html",
@@ -872,6 +948,15 @@ const patternManifest_1520359988203 = {
       "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
+          "name": "information-section",
+          "namePretty": "Information section",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections/information-section.html",
+          "localPath": "patterns/sections/information-section.html",
+          "readme": {
+            "padding": "1.5rem 0"
+          }
+        },
+        {
           "name": "photo-array",
           "namePretty": "Photo array",
           "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections/photo-array.html",
@@ -879,15 +964,6 @@ const patternManifest_1520359988203 = {
           "readme": {
             "width": 600,
             "padding": "1.5rem"
-          }
-        },
-        {
-          "name": "section-light",
-          "namePretty": "Section light",
-          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections/section-light.html",
-          "localPath": "patterns/sections/section-light.html",
-          "readme": {
-            "padding": "1.5rem 0"
           }
         }
       ],
@@ -905,6 +981,39 @@ const patternManifest_1520359988203 = {
           "namePretty": "Sections",
           "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections/sections.css",
           "localPath": "patterns/sections/sections.css"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "namePretty": "Tabs",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs",
+      "html": [
+        {
+          "name": "tabs",
+          "namePretty": "Tabs",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/tabs.html",
+          "localPath": "patterns/tabs/tabs.html",
+          "readme": {
+            "width": 700,
+            "padding": "1.5rem"
+          }
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/README.md",
+          "localPath": "patterns/tabs/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "tabs",
+          "namePretty": "Tabs",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/tabs.css",
+          "localPath": "patterns/tabs/tabs.css"
         }
       ]
     }
@@ -929,5 +1038,5 @@ const patternManifest_1520359988203 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520359988203);
+patternBotIncludes(patternManifest_1521402887627);
 }());

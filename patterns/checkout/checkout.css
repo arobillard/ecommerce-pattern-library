@@ -1,0 +1,9 @@
+.checkout-totals .grid .unit:nth-child(even) {
+  text-align: right;
+}
+
+.checkout-total {
+  border-top: 2px solid var(--color-secondary);
+  color: var(--color-primary);
+  font-weight: bold;
+}

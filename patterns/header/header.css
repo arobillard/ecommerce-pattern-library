@@ -100,22 +100,6 @@
   left: 50%;
   transform: translateY(50%) translateX(-50%) rotate(-45deg);
 }
-/*
-input[type="checkbox"].nav-check + label::before {
-  position: absolute;
-  right: -.4rem;
-  top: -.2rem;
-  background-color: transparent;
-  background-size: cover;
-  border: none;
-  z-index: 900000;
-  height: 2em;
-  width: 2.2em;
-}
-
-[type="checkbox"].nav-check:checked + label::before {
-  background-image: none;
-} */
 
 nav {
   position: fixed;

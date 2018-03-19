@@ -1,0 +1,36 @@
+.section-tab-btn {
+  border: none;
+  color: var(--color-secondary);
+}
+
+.section-tab-btn:hover,
+.section-tab-selected a {
+  color: var(--color-primary);
+}
+
+.section-tab-btns li {
+  border-bottom: 2px solid var(--color-grey-medium);
+  transition: border-color .25s;
+  padding: .65rem;
+}
+
+.section-tab-btns li:hover,
+li.section-tab-selected {
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.section-tab-section {
+  display: none;
+}
+
+.section-tab-section-active {
+  display: block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .section-tab-btns li {
+    padding: 0;
+  }
+
+}

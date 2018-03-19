@@ -1,30 +1,67 @@
-.category-selector .unit {
+.bread-crumbs li {
+  padding-right: 1.25rem;
+  background: url("../../images/bread-crumbs-arrow.svg") center right / 1rem auto no-repeat;
+}
+
+.bread-crumbs li:last-child {
+  padding-right: 0;
+  background: none;
+}
+
+.bread-crumbs a {
+  color: var(--color-secondary);
+  border: none;
+}
+
+.bread-crumbs a:hover,
+.bread-crumbs a:active,
+.bread-crumbs a:focus {
+  color: var(--color-primary);
+}
+
+.bread-crumbs li:last-child a {
+  color: var(--color-primary);
+}
+
+.bread-crumbs li:last-child a:hover,
+.bread-crumbs li:last-child a:active,
+.bread-crumbs li:last-child a:focus {
+  color: var(--color-primary-dark);
+}
+
+.category-selector {
+  transition: color .25s;
+  border: none;
+  color: var(--color-secondary);
+}
+
+.category-selector img {
   filter: grayscale(1);
   transition: filter .25s;
 }
 
-.category-selector .unit:hover {
-  filter: grayscale(.5);
-}
-
-.category-sales:checked ~ .category-selector .unit[for="category-sales"],
-.category-board-games:checked ~ .category-selector .unit[for="category-board-games"],
-.category-card-games:checked ~ .category-selector .unit[for="category-card-games"],
-.category-rpgs:checked ~ .category-selector .unit[for="category-rpgs"],
-.category-dice:checked ~ .category-selector .unit[for="category-dice"],
-.category-accessories:checked ~ .category-selector .unit[for="category-accessories"] {
-  filter: none;
+.category-selector:hover,
+.category-selector:focus,
+.category-selector:active {
   color: var(--color-primary);
 }
 
-.category-sales:focus ~ .category-selector .unit[for="category-sales"],
-.category-board-games:focus ~ .category-selector .unit[for="category-board-games"],
-.category-card-games:focus ~ .category-selector .unit[for="category-card-games"],
-.category-rpgs:focus ~ .category-selector .unit[for="category-rpgs"],
-.category-dice:focus ~ .category-selector .unit[for="category-dice"],
-.category-accessories:focus ~ .category-selector .unit[for="category-accessories"] {
-  outline: 3px solid #000;
-  outline-offset: 0;
+
+.category-selector:hover img,
+.category-selector:focus img,
+.category-selector:active img {
+  filter: grayscale(.5);
+}
+
+.category-selected {
+  color: var(--color-primary);
+}
+
+.category-selected img,
+.category-selected:hover img,
+.category-selected:focus img,
+.category-selected:active img {
+  filter: none;
 }
 
 .products select,

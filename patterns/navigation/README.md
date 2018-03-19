@@ -1,4 +1,7 @@
 ---
+bread-crumbs:
+  desc: |
+    Bread crumbs show the path taken by users and give them and easy path to go back pages easily.
 product-categories:
   desc: |
     Category selectors to filter different products in the product list.
