@@ -42,11 +42,11 @@ ul.xs-hidden {
 @media only screen and (min-width: 38em) {
 
 
-  .unit:first-child {
+  .footer .unit:first-child {
     text-align: left;
   }
 
-  .unit:last-child {
+  .footer .unit:last-child {
     text-align: right;
   }
 
