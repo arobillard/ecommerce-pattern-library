@@ -9,35 +9,50 @@
 <body>
   <script type="application/json" data-pattern="header/header"></script>
   <main id="main" role="main">
-    <script type="application/json" data-pattern="banners/banner"></script>
-    <section class="section-highlight pad-t-2 pad-b-2">
-      <div class="grid wrapper island-1-2">
-        <div class="unit [ xs-1 m-1-2 ] island-1-2">
-          <script type="application/json" data-pattern="cards/preview-card"></script>
-        </div>
-        <div class="unit [ xs-1 m-1-2 ] island-1-2">
-          <script type="application/json" data-pattern="cards/preview-card">
-            {
-              "h3": "Get 33% Off",
-              "p": "Dice bags and card sleeves."
-            }
-          </script>
-        </div>
-        <div class="unit [ xs-1 m-1-2 ] island-1-2">
-          <script type="application/json" data-pattern="cards/preview-card">
-            {
-              "h3": "Get 15% Off",
-              "p": "Select classic titles."
-            }
-          </script>
-        </div>
-        <div class="unit [ xs-1 m-1-2 ] island-1-2">
-          <script type="application/json" data-pattern="cards/preview-card">
-            {
-              "h3": "Get 50% Off",
-              "p": "This months featured item."
-            }
-          </script>
+    <script type="application/json" data-pattern="banners/banner">
+      {
+        "h1": "Spiked Dice",
+        "p": "Metallic spiked dice, set of 7"
+      }
+    </script>
+    <section class="section-highlight section-highlight-medium pad-t-2 pad-b-2">
+      <div class="wrapper">
+        <h2 class="gutter push-0">Featured Specials</h2>
+        <div class="grid island-1-2">
+          <div class="unit [ xs-1 m-1-2 ] island-1-2">
+            <script type="application/json" data-pattern="cards/preview-card">
+              {
+                "img[src]": "../images/preview-catan.jpg"
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 m-1-2 ] island-1-2">
+            <script type="application/json" data-pattern="cards/preview-card">
+              {
+                "img[src]": "../images/preview-catan.jpg",
+                "h3": "Get 33% Off",
+                "p": "Dice bags and card sleeves."
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 m-1-2 ] island-1-2">
+            <script type="application/json" data-pattern="cards/preview-card">
+              {
+                "img[src]": "../images/preview-catan.jpg",
+                "h3": "Get 15% Off",
+                "p": "Select classic titles."
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 m-1-2 ] island-1-2">
+            <script type="application/json" data-pattern="cards/preview-card">
+              {
+                "img[src]": "../images/preview-catan.jpg",
+                "h3": "Get 50% Off",
+                "p": "This months featured item."
+              }
+            </script>
+          </div>
         </div>
       </div>
     </section>
@@ -55,6 +70,7 @@
             <div class="unit [ xs-1 m-1 l-1-2 ] island-1-2">
               <script type="application/json" data-pattern="cards/category-cards">
                 {
+                  "img[src]": "../images/category-dice.jpg",
                   "h3": "Dice Sets"
                 }
               </script>
@@ -62,6 +78,7 @@
             <div class="unit [ xs-1 m-1 l-1-2 ] island-1-2">
               <script type="application/json" data-pattern="cards/category-cards">
                 {
+                  "img[src]": "../images/category-dice.jpg",
                   "h3": "Board Games"
                 }
               </script>
@@ -69,6 +86,7 @@
             <div class="unit [ xs-1 m-0 l-1-2 ] island-1-2">
               <script type="application/json" data-pattern="cards/category-cards">
                 {
+                  "img[src]": "../images/category-dice.jpg",
                   "h3": "RPGs"
                 }
               </script>
@@ -76,6 +94,7 @@
             <div class="unit [ xs-1 m-0 l-1-2 ] island-1-2">
               <script type="application/json" data-pattern="cards/category-cards">
                 {
+                  "img[src]": "../images/category-dice.jpg",
                   "h3": "Trading Cards"
                 }
               </script>
@@ -84,10 +103,13 @@
         </div>
       </div>
     </section>
-    <script type="application/json" data-pattern="sections/information-section"></script>
+    <script type="application/json" data-pattern="sections/information-section">
+      {
+        "img[src]": "../images/community.jpg"
+      }
+    </script>
   </main>
   <script type="application/json" data-pattern="footer/footer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="../js/main.js"></script>
 </body>
 </html>

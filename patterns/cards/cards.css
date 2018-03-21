@@ -21,4 +21,5 @@
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: #fff;
+  box-shadow: var(--shadow-secondary);
 }

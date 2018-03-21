@@ -1,17 +1,3 @@
-// Nav Mobile --------------------
-
-$('.nav-label').on('click', function () {
-  $(this).toggleClass('nav-label-open');
-  $('nav').toggleClass('nav-open');
-});
-
-// Category Selector --------------------
-
-$('.category-selector').on('click', function () {
-  $('.category-selector').removeClass('category-selected');
-  $(this).addClass('category-selected');
-});
-
 // Photo Array --------------------
 
 $('.photo-array-btn').on('click', function () {
@@ -72,15 +58,4 @@ $('.photo-array-focus-previous').on('click', function (e) {
       $('.photo-array-focus img').attr('src', photoArray3);
       break;
   }
-});
-
-// Tabs --------------------
-
-$('.section-tab-btn').on('click', function () {
-  var id = $(this).attr('href');
-
-  $('.section-tab-btns li').removeClass('section-tab-selected');
-  $(this).parent().addClass('section-tab-selected');
-  $('.section-tab-section').removeClass('section-tab-section-active');
-  $(id).addClass('section-tab-section-active');
 });

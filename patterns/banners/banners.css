@@ -1,15 +1,24 @@
 .banner {
-  background: url("https://placehold.it/1600x900") center top / cover no-repeat;
-  height: 100vh;
+  background:
+    linear-gradient(to bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .5)) left top / cover no-repeat,
+    url("../../images/dice-banner.jpg") 70% center / cover no-repeat;
+  height: calc(100vh - 3.4475rem);
+  max-height: 800px;
+  margin-top: 3.4475rem;
   box-shadow: var(--shadow-primary);
   border-bottom: 2px solid var(--color-primary);
   text-align: center;
+  position: relative;
+  z-index: 10;
 }
 
 @media only screen and (min-width: 38em) {
 
   .banner {
+    background: url("../../images/dice-banner.jpg") center bottom / cover no-repeat;
     text-align: left;
+    height: calc(100vh - 4.5087rem);
+    margin-top: 4.5087rem;
   }
 
 }

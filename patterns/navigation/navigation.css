@@ -29,6 +29,20 @@
   color: var(--color-primary-dark);
 }
 
+button {
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+button:hover,
+button:active,
+button:focus {
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+
 .category-selector {
   transition: color .25s;
   border: none;
@@ -46,7 +60,6 @@
   color: var(--color-primary);
 }
 
-
 .category-selector:hover img,
 .category-selector:focus img,
 .category-selector:active img {
@@ -62,6 +75,34 @@
 .category-selected:focus img,
 .category-selected:active img {
   filter: none;
+}
+
+.product-sort .unit {
+  display: none;
+}
+
+.category-all .unit {
+  display: block;
+}
+
+.category-board-games .board-games {
+  display: block;
+}
+
+.category-card-games .card-games {
+  display: block;
+}
+
+.category-rpgs .rpgs {
+  display: block;
+}
+
+.category-dice .dice {
+  display: block;
+}
+
+.category-accessories .accessories {
+  display: block;
 }
 
 .products select,

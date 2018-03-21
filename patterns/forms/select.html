@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Forms - Text</title>
+  <title>Forms - Select</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -15,7 +15,7 @@
 </head>
 <body>
   <form method="post" action="#" novalidate>
-    <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive pad-t-1-2">
+    <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
       <h3 class="push-0">
         <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
         <span class="icon-label">There are items that require your attention.</span>
@@ -23,10 +23,10 @@
     </div>
     <div class="push">
       <select class="push-1-2" id="text-input" name="text-input" required>
-        <option selected>Select an option</option>
-        <option>Option 1</option>
-        <option>Option 2</option>
-        <option>Option 3</option>
+        <option value="">Select an option</option>
+        <option value="option-1">Option 1</option>
+        <option value="option-2">Option 2</option>
+        <option value="option-3">Option 3</option>
       </select>
       <label for="text-input">Select an item.</label>
       <p class="error-message milli island-1-4 push-0" id="agree-error">
@@ -37,4 +37,4 @@
   </form>
   <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>
-</head>
+</html>
