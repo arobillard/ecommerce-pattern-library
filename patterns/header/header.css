@@ -19,7 +19,7 @@
   height: 1.5rem;
 }
 
-.i-logo + span {
+.masthead .i-logo + span {
   display: none;
 }
 
