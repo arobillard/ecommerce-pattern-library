@@ -68,3 +68,7 @@ mark {
 .font-medium {
   font-weight: 500;
 }
+
+.unit {
+  transition: all .25s;
+}
