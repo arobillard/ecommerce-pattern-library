@@ -6,7 +6,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1000000;
+  z-index: 100;
 }
 
 .i-logo {
@@ -129,9 +129,19 @@ li.xs-hidden {
   display: none;
 }
 
+.current {
+  color: var(--color-primary)!important;
+}
+
+.current:hover,
+.current:focus,
+.current:active {
+  color: var(--color-primary-dark)!important;
+}
+
 @media only screen and (min-width: 25em) {
 
-  .i-logo + span {
+  .masthead .i-logo + span {
     display: inline-block;
   }
 
