@@ -1399,7 +1399,7 @@
     &lt;div class="unit [ xs-1 m-1-2 ]">
       &lt;ul class="list-group push-0 island-1-4">
         &lt;li class="island-1-4">
-          &lt;a href="home.html">
+          &lt;a class="inline-block" href="home.html">
               &lt;i class="icon i-logo">
                 &lt;img src="../../images/logo.svg" alt="">
               &lt;/i>
@@ -2125,18 +2125,18 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="header-header-code-sample-copy-chunk">&lt;header class="masthead"&gt;
+              <code><pre id="header-header-code-sample-copy-chunk">&lt;header class="masthead" role="banner"&gt;
   &lt;div class="grid grid-middle wrapper island-1-2">
     &lt;div class="unit [ xs-1-2 m-3-4 ] gutter-1-2">
-      &lt;a href="home.html">
+      &lt;a class="inline-block push-r" href="home.html">
           &lt;i class="icon i-logo">
             &lt;img src="../../images/logo.svg" alt="">
           &lt;/i>
-          &lt;span class="icon-label giga push-r">&lt;b>Top&lt;/b>Table&lt;/span>
+          &lt;span class="icon-label giga">&lt;b>Top&lt;/b>Table&lt;/span>
         &lt;/a>
-      &lt;nav>
+      &lt;nav role="navigation" id="nav">
         &lt;ul class="list-group push-0">
-          &lt;li class="island-1-2">&lt;a class="kilo" href="products.html">Products&lt;/a>&lt;/li>
+          &lt;li class="island-1-2">&lt;a class="prod kilo" href="products.html">Products&lt;/a>&lt;/li>
           &lt;li class="island-1-2">&lt;a class="kilo" href="#">Deals&lt;/a>&lt;/li>
           &lt;li class="island-1-2">&lt;a class="kilo" href="#">News&lt;/a>&lt;/li>
           &lt;li class="island-1-2">&lt;a class="kilo" href="#">Community&lt;/a>&lt;/li>
@@ -2460,7 +2460,7 @@
       &lt;div class="grid grid-middle">
         &lt;div class="unit [ xs-1 m-1-2 l-2-3 ]">
           &lt;label class="text-primary inline-block valign-middle" for="product-sort">Sort:&lt;/label>
-          &lt;select class="sort valign-middle" name="product-sort">
+          &lt;select class="sort valign-middle" name="product-sort" id="product-sort">
             &lt;option>Most Popular&lt;/option>
             &lt;option>Highest to Lowest&lt;/option>
             &lt;option>Lowest to Highest&lt;/option>

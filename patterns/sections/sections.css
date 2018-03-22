@@ -14,7 +14,6 @@
   background-color: var(--color-grey-light);
 }
 
-
 .photo-array-btn,
 .photo-array-main .embed,
 .photo-array-btn:hover,
@@ -56,7 +55,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 100000,
+  z-index: 100000;
 }
 
 .photo-array-focus-previous,
