@@ -4,7 +4,6 @@
     url("../../images/dice-banner.jpg") 70% center / cover no-repeat;
   height: calc(100vh - 3.4475rem);
   max-height: 800px;
-  margin-top: 3.4475rem;
   box-shadow: var(--shadow-primary);
   border-bottom: 2px solid var(--color-primary);
   text-align: center;
@@ -18,7 +17,14 @@
     background: url("../../images/dice-banner.jpg") center bottom / cover no-repeat;
     text-align: left;
     height: calc(100vh - 4.5087rem);
-    margin-top: 4.5087rem;
+  }
+
+}
+
+@media only screen and (min-width: 95em) {
+
+  .banner {
+    background: url("../../images/dice-banner.jpg") center center / cover no-repeat;
   }
 
 }

@@ -10,6 +10,7 @@ colors:
     The primary colour is used for headings, buttons, and to accent sections and cards. It is a basic green that creates an extra fantasy feel.
   secondary: |
     The secondary colour is a simple grey that is easily readable and is used primarily for body copy.
+tabs:
 ---
 
 TopTable is a table top gaming company that puts the games first before anything else. We want to make sure our customers have easy and efficient access to their favourite games and new ones!

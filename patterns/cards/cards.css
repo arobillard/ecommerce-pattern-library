@@ -7,6 +7,10 @@
   display: block;
 }
 
+.grid.card {
+  display: flex;
+}
+
 .card:hover,
 .card:active,
 .card:focus {
@@ -22,4 +26,36 @@
   border-color: var(--color-primary);
   color: #fff;
   box-shadow: var(--shadow-secondary);
+}
+
+@media only screen and (min-width: 25em) {
+
+  .product-quantity {
+    position: absolute;
+    bottom: .65rem;
+    right: .65rem;
+  }
+
+  .checkout-card p:last-child {
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .product-quantity {
+    bottom: .7rem;
+    right: .7rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .product-quantity {
+    bottom: .75rem;
+    right: .75rem;
+  }
+
 }

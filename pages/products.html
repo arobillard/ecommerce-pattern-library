@@ -17,80 +17,96 @@
     }
   </script>
   <main class="" id="main" role="main">
-    <script type="application/json" data-pattern="banners/banner">
-      {
-        "h1": "Spiked Dice",
-        "p": "Metallic spiked dice, set of 7"
-      }
-    </script>
-    <script type="application/json" data-pattern="navigation/product-categories"></script>
     <div class="wrapper">
       <div class="gutter">
         <script type="application/json" data-pattern="navigation/product-search"></script>
       </div>
-      <div class="grid product-sort category-all island-1-2">
-        <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] board-games island-1-2">
-          <script type="application/json" data-pattern="cards/product-card">
-            {
-              "h3": "Board Game"
-            }
-          </script>
+      <script type="application/json" data-pattern="navigation/product-categories"></script>
+      <script type="application/json" data-pattern="navigation/bread-crumbs">
+        {
+          ".bread-crumbs-category[class]": "bread-crumbs-category bread-crumbs-active",
+          ".item[class]": "item hidden"
+        }
+      </script>
+      <section id="products" class="category-all">
+        <div id="product-list" class="grid product-sort island-1-2" tabindex="0">
+          <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] board-games island-1-2">
+            <script type="application/json" data-pattern="cards/product-card">
+              {
+                "h3": "Board Game"
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] dice island-1-2">
+            <script type="application/json" data-pattern="cards/product-card">
+              {
+                "h3": "Dice"
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] board-games island-1-2">
+            <script type="application/json" data-pattern="cards/product-card">
+              {
+                "h3": "Board Game"
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] dice island-1-2">
+            <script type="application/json" data-pattern="cards/product-card">
+              {
+                "h3": "Dice"
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] other dice island-1-2">
+            <script type="application/json" data-pattern="cards/product-card">
+              {
+                "h3": "Accessories"
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] other island-1-2">
+            <script type="application/json" data-pattern="cards/product-card">
+              {
+                "h3": "Accessories"
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] rpgs island-1-2">
+            <script type="application/json" data-pattern="cards/product-card">
+              {
+                "h3": "RPGs"
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] card-games island-1-2">
+            <script type="application/json" data-pattern="cards/product-card">
+              {
+                "h3": "Card Game"
+              }
+            </script>
+          </div>
+          <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] other island-1-2">
+            <script type="application/json" data-pattern="cards/product-card">
+              {
+                "h3": "Accessories"
+              }
+            </script>
+          </div>
         </div>
-        <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] dice island-1-2">
-          <script type="application/json" data-pattern="cards/product-card">
-            {
-              "h3": "Dice"
-            }
-          </script>
+      </section>
+      <div class="grid island-1-2">
+        <div class="unit [ xs-1 m-1-2 ] island-1-2">
+          <script type="application/json" data-pattern="cards/checkout-card"></script>
         </div>
-        <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] board-games island-1-2">
-          <script type="application/json" data-pattern="cards/product-card">
-            {
-              "h3": "Board Game"
-            }
-          </script>
+        <div class="unit [ xs-1 m-1-2 ] island-1-2">
+          <script type="application/json" data-pattern="cards/checkout-card"></script>
         </div>
-        <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] dice island-1-2">
-          <script type="application/json" data-pattern="cards/product-card">
-            {
-              "h3": "Dice"
-            }
-          </script>
+        <div class="unit [ xs-1 m-1-2 ] island-1-2">
+          <script type="application/json" data-pattern="cards/checkout-card"></script>
         </div>
-        <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] accessories island-1-2">
-          <script type="application/json" data-pattern="cards/product-card">
-            {
-              "h3": "Accessories"
-            }
-          </script>
-        </div>
-        <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] accessories island-1-2">
-          <script type="application/json" data-pattern="cards/product-card">
-            {
-              "h3": "Accessories"
-            }
-          </script>
-        </div>
-        <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] rpgs island-1-2">
-          <script type="application/json" data-pattern="cards/product-card">
-            {
-              "h3": "RPGs"
-            }
-          </script>
-        </div>
-        <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] card-games island-1-2">
-          <script type="application/json" data-pattern="cards/product-card">
-            {
-              "h3": "Card Game"
-            }
-          </script>
-        </div>
-        <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] accessories island-1-2">
-          <script type="application/json" data-pattern="cards/product-card">
-            {
-              "h3": "Accessories"
-            }
-          </script>
+        <div class="unit [ xs-1 m-1-2 ] island-1-2">
+          <script type="application/json" data-pattern="cards/checkout-card"></script>
         </div>
       </div>
     </div>
