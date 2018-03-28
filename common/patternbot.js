@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library
- * @version e1779f133856de794449bca785131dc1cbbb45a7
+ * @version 3a9b0a22f10161989c287934060a7169863f141b
  */
-const patternManifest_e1779f133856de794449bca785131dc1cbbb45a7 = {
+const patternManifest_3a9b0a22f10161989c287934060a7169863f141b = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -617,6 +617,7 @@ const patternManifest_e1779f133856de794449bca785131dc1cbbb45a7 = {
         "backgroundColor": "#f3f3f3",
         "name": "TopTable",
         "fontUrl": "https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700",
+        "tabs": null,
         "backgroundColour": "#f3f3f3",
         "interfaceColours": {
           "primary": 0,
@@ -668,6 +669,7 @@ const patternManifest_e1779f133856de794449bca785131dc1cbbb45a7 = {
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms",
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/header",
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array",
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections",
       "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs"
     ],
@@ -764,6 +766,17 @@ const patternManifest_e1779f133856de794449bca785131dc1cbbb45a7 = {
           "filename": "category-cards",
           "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/category-cards.html",
           "localPath": "patterns/cards/category-cards.html",
+          "readme": {
+            "width": 600,
+            "padding": "1.5rem"
+          }
+        },
+        {
+          "name": "checkout-card",
+          "namePretty": "Checkout card",
+          "filename": "checkout-card",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/checkout-card.html",
+          "localPath": "patterns/cards/checkout-card.html",
           "readme": {
             "width": 600,
             "padding": "1.5rem"
@@ -1070,6 +1083,50 @@ const patternManifest_e1779f133856de794449bca785131dc1cbbb45a7 = {
       ]
     },
     {
+      "name": "photo-array",
+      "namePretty": "Photo array",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array",
+      "html": [
+        {
+          "name": "photo-array",
+          "namePretty": "Photo array",
+          "filename": "photo-array",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array/photo-array.html",
+          "localPath": "patterns/photo-array/photo-array.html",
+          "readme": {
+            "padding": "1.5rem"
+          }
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array/README.md",
+          "localPath": "patterns/photo-array/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "photo-array",
+          "namePretty": "Photo array",
+          "filename": "photo-array",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array/photo-array.css",
+          "localPath": "patterns/photo-array/photo-array.css"
+        }
+      ],
+      "js": [
+        {
+          "name": "photo-array",
+          "namePretty": "Photo array",
+          "filename": "photo-array",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array/photo-array.js",
+          "localPath": "patterns/photo-array/photo-array.js"
+        }
+      ]
+    },
+    {
       "name": "sections",
       "namePretty": "Sections",
       "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections",
@@ -1082,17 +1139,6 @@ const patternManifest_e1779f133856de794449bca785131dc1cbbb45a7 = {
           "localPath": "patterns/sections/information-section.html",
           "readme": {
             "padding": "1.5rem 0"
-          }
-        },
-        {
-          "name": "photo-array",
-          "namePretty": "Photo array",
-          "filename": "photo-array",
-          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections/photo-array.html",
-          "localPath": "patterns/sections/photo-array.html",
-          "readme": {
-            "width": 600,
-            "padding": "1.5rem"
           }
         }
       ],
@@ -1114,15 +1160,7 @@ const patternManifest_e1779f133856de794449bca785131dc1cbbb45a7 = {
           "localPath": "patterns/sections/sections.css"
         }
       ],
-      "js": [
-        {
-          "name": "sections",
-          "namePretty": "Sections",
-          "filename": "sections",
-          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections/sections.js",
-          "localPath": "patterns/sections/sections.js"
-        }
-      ]
+      "js": []
     },
     {
       "name": "tabs",
@@ -1130,11 +1168,22 @@ const patternManifest_e1779f133856de794449bca785131dc1cbbb45a7 = {
       "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs",
       "html": [
         {
-          "name": "tabs",
-          "namePretty": "Tabs",
-          "filename": "tabs",
-          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/tabs.html",
-          "localPath": "patterns/tabs/tabs.html",
+          "name": "tab-bar",
+          "namePretty": "Tab bar",
+          "filename": "tab-bar",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/tab-bar.html",
+          "localPath": "patterns/tabs/tab-bar.html",
+          "readme": {
+            "width": 700,
+            "padding": "1.5rem"
+          }
+        },
+        {
+          "name": "tab-page",
+          "namePretty": "Tab page",
+          "filename": "tab-page",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/tab-page.html",
+          "localPath": "patterns/tabs/tab-page.html",
           "readme": {
             "width": 700,
             "padding": "1.5rem"
@@ -1190,5 +1239,5 @@ const patternManifest_e1779f133856de794449bca785131dc1cbbb45a7 = {
   }
 };
 
-patternBotIncludes(patternManifest_e1779f133856de794449bca785131dc1cbbb45a7);
+patternBotIncludes(patternManifest_3a9b0a22f10161989c287934060a7169863f141b);
 }());

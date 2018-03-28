@@ -3,7 +3,8 @@
   background: url("../../images/bread-crumbs-arrow.svg") center right / 1rem auto no-repeat;
 }
 
-.bread-crumbs li:last-child {
+.bread-crumbs li:last-child,
+li.bread-crumbs-active {
   padding-right: 0;
   background: none;
 }
@@ -19,13 +20,17 @@
   color: var(--color-primary);
 }
 
-.bread-crumbs li:last-child a {
+.bread-crumbs li:last-child a,
+.bread-crumbs-active a {
   color: var(--color-primary);
 }
 
 .bread-crumbs li:last-child a:hover,
 .bread-crumbs li:last-child a:active,
-.bread-crumbs li:last-child a:focus {
+.bread-crumbs li:last-child a:focus,
+.bread-crumbs-active a:hover,
+.bread-crumbs-active a:focus,
+.bread-crumbs-active a:active {
   color: var(--color-primary-dark);
 }
 
@@ -79,30 +84,39 @@ button:focus {
 
 .product-sort .unit {
   display: none;
+  /* width: 0; */
+  overflow: hidden!important;
+  transition: width .25s;
 }
 
 .category-all .unit {
   display: block;
+  /* width: 33%; */
 }
 
 .category-board-games .board-games {
   display: block;
+  /* width: 33%; */
 }
 
 .category-card-games .card-games {
   display: block;
+  /* width: 33%; */
 }
 
 .category-rpgs .rpgs {
   display: block;
+  /* width: 33%; */
 }
 
 .category-dice .dice {
   display: block;
+  /* width: 33%; */
 }
 
-.category-accessories .accessories {
+.category-other .other {
   display: block;
+  /* width: 33%; */
 }
 
 .products select,

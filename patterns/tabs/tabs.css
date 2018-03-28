@@ -19,11 +19,11 @@ li.section-tab-selected {
   border-bottom: 2px solid var(--color-primary);
 }
 
-.section-tab-section {
+.section-tab-page {
   display: none;
 }
 
-.section-tab-section-active {
+.section-tab-page-active {
   display: block;
 }
 

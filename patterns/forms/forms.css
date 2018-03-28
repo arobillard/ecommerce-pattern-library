@@ -78,3 +78,14 @@ select.sort {
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
+
+.card .product-quantity label {
+  display: inline-block;
+  color: var(--color-primary);
+}
+
+.card .product-quantity input {
+  display: inline-block;
+  width: 1.75rem;
+  text-align: center;
+}

@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Bread Crumbs</title>
+  <title>Tab Page</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -10,15 +10,18 @@
   <link href="../../common/grid.css" rel="stylesheet">
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
-  <link href="navigation.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="../sections/sections.css" rel="stylesheet">
+  <link href="tabs.css" rel="stylesheet">
 </head>
-<body>
-  <ul class="bread-crumbs list-group-inline push-0 island">
-    <li><a href="#">Products</a></li>
-    <li class="bread-crumbs-category"><a href="#">All</a></li>
-    <li><a class="item" href="#">Settlers of Catan</a></li>
-  </ul>
+<body class="section-highlight section-highlight-light">
+  <div class="pad-t-2 pad-b-2">
+    <div id="tab-page-1" class="section-tab-page section-tab-page-active">
+      <h3>Insert Content Here</h3>
+      <p class="push-0">Remove or add elements as necessary for applicable tab container use.</p>
+    </div>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="../../js/main.js"></script>
+  <script src="tabs.js"></script>
 </body>
 </html>

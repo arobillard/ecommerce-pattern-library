@@ -22,6 +22,10 @@ html {
   background-color: var(--color-grey-medium);
 }
 
+main {
+  margin-top: 3.4475rem;
+}
+
 h1 {
   color: var(--color-primary);
 }
@@ -69,6 +73,10 @@ mark {
   font-weight: 500;
 }
 
-.unit {
-  transition: all .25s;
+@media only screen and (min-width: 38em) {
+
+  main {
+    margin-top: 4.5087rem;
+  }
+
 }
