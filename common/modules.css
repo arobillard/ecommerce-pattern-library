@@ -238,6 +238,11 @@ svg.img-flex {
   vertical-align: middle;
 }
 
+.i-1rem, .i--1rem {
+  height: 1rem;
+  width: 1rem;
+}
+
 .i-1-5rem, .i--1-5rem {
   height: 1.5rem;
   width: 1.5rem;
@@ -734,7 +739,7 @@ fieldset {
   padding-right: 0;
 
   border: 0;
-  border-top: 2px solid #666;
+  border-top: none;
 }
 
 legend {

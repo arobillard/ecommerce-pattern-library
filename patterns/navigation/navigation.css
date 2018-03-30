@@ -34,20 +34,6 @@ li.bread-crumbs-active {
   color: var(--color-primary-dark);
 }
 
-button {
-  border: none;
-  background-color: transparent;
-  border-radius: 0;
-}
-
-button:hover,
-button:active,
-button:focus {
-  border: none;
-  background-color: transparent;
-  border-radius: 0;
-}
-
 .category-selector {
   transition: color .25s;
   border: none;

@@ -262,6 +262,16 @@
         <nav class="nav mega">
           <ul class="list-group">
               <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/checkout.html" target="_blank">
+                  <div class="relative">
+                    <span>Checkout</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
                 <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/home.html" target="_blank">
                   <div class="relative">
                     <span>Home</span>
@@ -1007,6 +1017,7 @@
         <ol class="list-group-inline push-1-4 pad-b-1-4">
             <li><a href="#cards--category-cards">Category cards</a></li>
             <li><a href="#cards--checkout-card">Checkout card</a></li>
+            <li><a href="#cards--delete-confirmation">Delete confirmation</a></li>
             <li><a href="#cards--preview-card">Preview card</a></li>
             <li><a href="#cards--product-card">Product card</a></li>
         </ol>
@@ -1149,7 +1160,7 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-checkout-card-code-sample-copy-chunk">&lt;div class="card checkout-card grid grid-stretch relative island-1-4"&gt;
+              <code><pre id="cards-checkout-card-code-sample-copy-chunk">&lt;div class="card checkout-card grid grid-stretch relative island-1-4 content-fill" tabindex="0"&gt;
   &lt;div class="unit [ xs-1-4 ] island-1-4">
     &lt;div class="embed embed-1by1">
       &lt;img class="embed-item" src="https://placehold.it/100x100" alt="">
@@ -1158,11 +1169,92 @@
   &lt;div class="unit unit-content-distribute [ xs-3-4 ] island-1-4">
     &lt;h3 class="push-0 mega">Product Name&lt;/h3>
     &lt;p class="push-0 content-fill milli">Product Description&lt;/p>
-    &lt;p class="push-1-2">$50.99&lt;/p>
+    &lt;p class="push-0">$&lt;span class="checkout-item-price">50.99&lt;/span>&lt;/p>
     &lt;div class="product-quantity">
       &lt;label class="push-r-1-2 milli" for="product-quantity">Quantity&lt;/label>
       &lt;input class="milli" id="product-quantity" name="product-quantity" value="1">
     &lt;/div>
+    &lt;div class="absolute pin-tr island-1-2">
+      &lt;a class="product-delete" href="#delete-item">
+          &lt;i class="icon i-1rem">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#close"/>&lt;/svg>
+          &lt;/i>
+        &lt;/a>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="cards--delete-confirmation" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Delete confirmation</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-delete-confirmation-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="cards/delete-confirmation" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/delete-confirmation.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>A confirmation overlay to confirm removal of products from cart.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/cards/delete-confirmation.html" scrolling="no" data-inject-css=" " data-min-height="600"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-delete-confirmation-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-delete-confirmation-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-delete-confirmation-code-sample-copy-chunk">&lt;div class="delete-overlay"&gt;
+  &lt;div class="card w-1 island absolute pin-c">
+    &lt;p class="text-center">Are you sure you want to remove &lt;span class="delete-item-name bold">Product 1&lt;/span> from your cart?
+      &lt;ul class="list-group-inline text-center push-0 milli">
+        &lt;li class="gutter-1-2">&lt;a class="btn delete-confirmed" href="#" tabindex="1">Yes&lt;/a>&lt;/li>
+        &lt;li class="gutter-1-2">&lt;a class="btn btn-ghost delete-confirm-close" href="#" tabindex="1">No&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/p>
   &lt;/div>
 &lt;/div>
 </pre></code>
@@ -1383,8 +1475,8 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="checkout-totals-code-sample-copy-chunk">&lt;div class="grid island checkout-totals mega"&gt;
-  &lt;div class="unit xs-1 m-1-2 unit-offset-m-1-2">
+              <code><pre id="checkout-totals-code-sample-copy-chunk">&lt;div class="grid island-1-2 checkout-totals mega"&gt;
+  &lt;div class="unit xs-1 m-1-2 unit-offset-m-1-2 island-1-2">
     &lt;div class="grid">
       &lt;div class="unit xs-1-2 pad-t-1-2 pad-b-1-2">
         &lt;p class="push-0">Subtotal:&lt;/p>
@@ -2262,7 +2354,7 @@
         &lt;/label>
       &lt;/li>
       &lt;li class="island-1-4 valign-middle">
-        &lt;a href="#">
+        &lt;a class="cart" href="checkout.html">
             &lt;i class="icon i-social">
               &lt;svg>&lt;use xlink:href="../../images/icons.svg#cart"/>&lt;/svg>
             &lt;/i>
@@ -2372,7 +2464,7 @@
                 </i>
               </button>
               <code><pre id="navigation-bread-crumbs-code-sample-copy-chunk">&lt;ul class="bread-crumbs list-group-inline push-0 island"&gt;
-  &lt;li>&lt;a href="#">Products&lt;/a>&lt;/li>
+  &lt;li>&lt;a class="bread-crumbs-all-products" href="#">Products&lt;/a>&lt;/li>
   &lt;li class="bread-crumbs-category">&lt;a href="#">All&lt;/a>&lt;/li>
   &lt;li>&lt;a class="item" href="#">Settlers of Catan&lt;/a>&lt;/li>
 &lt;/ul>
@@ -2857,9 +2949,9 @@
                 </i>
               </button>
               <code><pre id="tabs-tab-bar-code-sample-copy-chunk">&lt;ul class="grid list-group section-tab-btns"&gt;
-  &lt;li class="unit [ xs-1 s-1-3 ] text-center section-tab-selected">&lt;a class="section-tab-btn block island-1-4" href="#tab-page-1">Description&lt;/a>&lt;/li>
-  &lt;li class="unit [ xs-1 s-1-3 ] text-center">&lt;a class="section-tab-btn block island-1-4" href="#tab-page-2">Product Specifications&lt;/a>&lt;/li>
-  &lt;li class="unit [ xs-1 s-1-3 ] text-center">&lt;a class="section-tab-btn block island-1-4" href="#tab-page-3">Return Policy&lt;/a>&lt;/li>
+  &lt;li class="unit [ xs-1 s-1-3 ] text-center section-tab-selected">&lt;a class="tab-button-1 section-tab-btn block island-1-4" href="#tab-page-1">Description&lt;/a>&lt;/li>
+  &lt;li class="unit [ xs-1 s-1-3 ] text-center">&lt;a class="tab-button-2 section-tab-btn block island-1-4" href="#tab-page-2">Product Specifications&lt;/a>&lt;/li>
+  &lt;li class="unit [ xs-1 s-1-3 ] text-center">&lt;a class="tab-button-3 section-tab-btn block island-1-4" href="#tab-page-3">Return Policy&lt;/a>&lt;/li>
 &lt;/ul>
 </pre></code>
             </div>

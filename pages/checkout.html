@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>TopTable - Products</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <script type="application/json" data-pattern="header/header">
+    {
+      ".cart[class]": "current kilo"
+    }
+  </script>
+  <main class="" id="main" role="main" tabindex="0">
+    <section class="wrapper pad-t-2 pad-b-2 checkout-items">
+      <h1 class="gutter">Checkout</h1>
+      <h2 class="gutter push-0">Cart</h2>
+      <div class="grid grid-stretch island-1-2">
+        <div id="product-1" class="unit [ xs-1 m-1-2 ] island-1-2 unit-content-distribute">
+          <script type="application/json" data-pattern="cards/checkout-card">
+            {
+              "h3": "Settlers of Catan",
+              "a[href]": "#product-1"
+            }
+          </script>
+        </div>
+        <div id="product-2" class="unit [ xs-1 m-1-2 ] island-1-2 unit-content-distribute">
+          <script type="application/json" data-pattern="cards/checkout-card">
+          {
+            "h3": "Betrayal at the House on the Hill",
+            "a[href]": "#product-2"
+          }
+          </script>
+        </div>
+        <div id="product-3" class="unit [ xs-1 m-1-2 ] island-1-2 unit-content-distribute">
+          <script type="application/json" data-pattern="cards/checkout-card">
+          {
+            "h3": "Speckled Dice, Sea",
+            "a[href]": "#product-3"
+          }
+          </script>
+        </div>
+        <div id="product-4" class="unit [ xs-1 m-1-2 ] island-1-2 unit-content-distribute">
+          <script type="application/json" data-pattern="cards/checkout-card">
+          {
+            "h3": "Oak Dice Tower",
+            "a[href]": "#product-4"
+          }
+          </script>
+        </div>
+      </div>
+      <script type="application/json" data-pattern="cards/delete-confirmation"></script>
+      <div class="gutter pad-textarea">
+        <hr class="checkout-hr push-0">
+      </div>
+      <script type="application/json" data-pattern="checkout/totals"></script>
+      <div class="text-right gutter pad-t">
+        <script type="application/json" data-pattern="buttons/buttons">
+          {
+            "a": "Checkout",
+            "a[href]": "#checkout-form"
+          }
+        </script>
+      </div>
+    </section>
+    <section id="checkout-form" class="pad-t-2 pad-b-2 checkout-items section-highlight section-highlight-medium">
+      <div class="wrapper-mid-length pad-t-2 pad-b-2 gutter">
+        <h2 class="">Checkout Form</h2>
+        <div class="section-highlight section-highlight-light island-1-2">
+          <div class="gutter-1-2 pad-t-1-2">
+            <script type="application/json" data-pattern="tabs/tab-bar">
+              {
+                ".tab-button-1": "Customer Information",
+                ".tab-button-2": "Shipping Information",
+                ".tab-button-3": "Payment Method"
+              }
+            </script>
+          </div>
+          <form class="pad-t-2 pad-b-2" action="#">
+            <fieldset id="tab-page-1" class="section-tab-page section-tab-page-active grid">
+              <legend class="unit xs-1 gutter-1-2 pad-b-1-2 push-1-2">Customer Information</legend>
+              <div class="unit [ xs-1 m-1-2 ] gutter-1-2">
+                <script type="application/json" data-pattern="forms/text">
+                  {
+                    "label": "First and Last Name",
+                    "label[for]": "name",
+                    "input[id]": "name",
+                    "input[name]": "name"
+                  }
+                </script>
+              </div>
+              <div class="unit [ xs-1 m-1-2 ] gutter-1-2">
+                <script type="application/json" data-pattern="forms/numbers">
+                  {
+                    "label": "Phone Number",
+                    "label[for]": "phone-number",
+                    "input[id]": "phone-number",
+                    "input[name]": "phone-number",
+                    "input[type]": "tel"
+                  }
+                </script>
+              </div>
+              <div class="unit [ xs-1 m-1-2 ] gutter-1-2">
+                <script type="application/json" data-pattern="forms/text">
+                  {
+                    "label": "Address",
+                    "label[for]": "address",
+                    "input[id]": "address",
+                    "input[name]": "address"
+                  }
+                </script>
+              </div>
+              <div class="unit [ xs-1 m-1-2 ] gutter-1-2">
+                <script type="application/json" data-pattern="forms/numbers">
+                  {
+                    "label": "Apt/Suite Number (optional)",
+                    "label[for]": "apt-suite-number",
+                    "input[id]": "apt-suite-number",
+                    "input[name]": "apt-suite-number"
+                  }
+                </script>
+              </div>
+              <div class="unit [ xs-1 m-1-2 ] gutter-1-2">
+                <script type="application/json" data-pattern="forms/select">
+                  {
+                    "option:nth-child(1)": "Select your country",
+                    "option:nth-child(2)": "Canada",
+                    "option:nth-child(2)[value]": "Canada",
+                    "option:nth-child(3)": "United States",
+                    "option:nth-child(3)[value]": "United States",
+                    "option:nth-child(4)": "Mexico",
+                    "option:nth-child(4)[value]": "Mexico",
+                    "label": "Country",
+                    "label[for]": "country",
+                    "select[id]": "country",
+                    "select[name]": "country"
+                  }
+                </script>
+              </div>
+              <div class="unit [ xs-1 m-1-2 ] gutter-1-2">
+                <script type="application/json" data-pattern="forms/select">
+                  {
+                    "option:nth-child(1)": "Select your province",
+                    "option:nth-child(2)": "Ontario",
+                    "option:nth-child(2)[value]": "Ontario",
+                    "option:nth-child(3)": "Quebec",
+                    "option:nth-child(3)[value]": "Quebec",
+                    "option:nth-child(4)": "British Columbia",
+                    "option:nth-child(4)[value]": "British Columbia",
+                    "label": "Province/State",
+                    "label[for]": "province-state",
+                    "select[id]": "province-state",
+                    "select[name]": "province-state"
+                  }
+                </script>
+              </div>
+              <div class="unit [ xs-1 m-1-2 ] gutter-1-2">
+                <script type="application/json" data-pattern="forms/text">
+                  {
+                    "label": "City",
+                    "label[for]": "city",
+                    "input[id]": "city",
+                    "input[name]": "city"
+                  }
+                </script>
+              </div>
+              <div class="unit [ xs-1 m-1-2 ] gutter-1-2">
+                <script type="application/json" data-pattern="forms/text">
+                  {
+                    "label": "Postal Code/Zip Code",
+                    "label[for]": "postal-code",
+                    "input[id]": "postal-code",
+                    "input[name]": "postal-code"
+                  }
+                </script>
+              </div>
+              <div class="unit [ xs-1 ] gutter-1-2">
+                <script type="application/json" data-pattern="forms/text-area">
+                  {
+                    "label": "Additional Shipping Instructions",
+                    "label[for]": "shipping-instructions",
+                    "textarea[id]": "shipping-instructions",
+                    "textarea[name]": "shipping-instructions"
+                  }
+                </script>
+              </div>
+              <div class="unit [ xs-1 ] text-center">
+                <script type="application/json" data-pattern="buttons/buttons">
+                  {
+                    "a": "Continue",
+                    "a[class]": "btn continue-shipping",
+                    "a[href]": "#tab-page-2"
+                  }
+                </script>
+              </div>
+            </fieldset>
+            <fieldset id="tab-page-2" class="section-tab-page grid">
+              <legend class="unit xs-1 gutter-1-2 pad-b-1-2 push-1-2">Shipping Information</legend>
+
+              <div class="unit [ xs-1 ] text-center">
+                <ol class="list-group-inline">
+                  <li class="gutter-1-2">
+                    <script type="application/json" data-pattern="buttons/buttons">
+                      {
+                        "a": "Back",
+                        "a[class]": "btn btn-secondary back-customer-info",
+                        "a[href]": "#tab-page-1"
+                      }
+                    </script>
+                  </li>
+                  <li class="gutter-1-2">
+                    <script type="application/json" data-pattern="buttons/buttons">
+                      {
+                        "a": "Continue",
+                        "a[class]": "btn continue-payment",
+                        "a[href]": "#tab-page-3"
+                      }
+                    </script>
+                  </li>
+                </ol>
+              </div>
+            </fieldset>
+            <fieldset id="tab-page-3" class="section-tab-page">
+              <legend class="unit xs-1 gutter-1-2 pad-b-1-2 push-1-2">Payment Method</legend>
+              <div class="unit [ xs-1 ] text-center">
+                <ol class="list-group-inline">
+                  <li class="gutter-1-2">
+                    <script type="application/json" data-pattern="buttons/buttons">
+                      {
+                        "a": "Back",
+                        "a[class]": "btn btn-secondary back-shipping",
+                        "a[href]": "#tab-page-2"
+                      }
+                    </script>
+                  </li>
+                  <li class="gutter-1-2">
+                    <button class="btn" type="submit">Complete Order</button>
+                  </li>
+                </ol>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script type="application/json" data-pattern="footer/footer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>

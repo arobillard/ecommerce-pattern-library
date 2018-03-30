@@ -130,6 +130,13 @@ thead th {
   width: 100%;
 }
 
+.wrapper-mid-length {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 45em;
+  width: 100%;
+}
+
 .wrapper-no-center {
   max-width: 60em;
   width: 100%;
@@ -212,6 +219,7 @@ h2,
 }
 
 h3,
+legend,
 .tera {
   font-size: 1.728rem;
   line-height: 2.275rem;
@@ -439,7 +447,7 @@ fieldset {
   padding: .325rem 0;
 
   border: 0;
-  border-top: 2px solid #000;
+  border-top: 0;
 }
 
 legend {
@@ -518,6 +526,7 @@ legend {
   }
 
   h3,
+  legend,
   .tera {
     font-size: 1.9531rem;
     line-height: 2.8rem;
@@ -765,7 +774,7 @@ legend {
     padding: .35rem 0;
 
     border: 0;
-    border-top: 2px solid #000;
+    border-top: 0;
   }
 
   legend {
@@ -846,6 +855,7 @@ legend {
   }
 
   h3,
+  legend,
   .tera {
     font-size: 2.3686rem;
     line-height: 3.375rem;
@@ -1093,7 +1103,7 @@ legend {
     padding: .375rem 0;
 
     border: 0;
-    border-top: 2px solid #000;
+    border-top: 0;
   }
 
   legend {
@@ -1174,6 +1184,7 @@ legend {
   }
 
   h3,
+  legend,
   .tera {
     font-size: 2.3686rem;
     line-height: 3.375rem;
@@ -1421,7 +1432,7 @@ legend {
     padding: .375rem 0;
 
     border: 0;
-    border-top: 2px solid #000;
+    border-top: 0;
   }
 
   legend {
