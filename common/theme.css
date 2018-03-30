@@ -30,7 +30,8 @@ h1 {
   color: var(--color-primary);
 }
 
-h3 {
+h3,
+legend {
   color: var(--color-primary);
   font-weight: 500;
 }

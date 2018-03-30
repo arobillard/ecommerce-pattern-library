@@ -9,6 +9,10 @@ checkout-card:
   padding: '1.5rem'
   desc: |
     The product card is used for listing products for sale. They are linked to the products page.
+delete-confirmation:
+  height: 600
+  desc: |
+    A confirmation overlay to confirm removal of products from cart.
 preview-card:
   width: 600
   padding: '1.5rem'

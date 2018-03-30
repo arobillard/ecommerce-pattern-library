@@ -19,13 +19,50 @@
   color: var(--color-secondary);
 }
 
-.card:hover .btn-ghost,
-.card:active .btn-ghost,
-.card:focus .btn-ghost {
+.card:hover span.btn-ghost,
+.card:active span.btn-ghost,
+.card:focus span.btn-ghost {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: #fff;
   box-shadow: var(--shadow-secondary);
+}
+
+.checkout-card h3 {
+  padding-right: 2.6rem;
+}
+
+.product-delete {
+  color: var(--color-secondary);
+  border: none;
+}
+
+.product-delete:hover,
+.product-delete:focus,
+.product-delete:active {
+  color: var(--color-secondary-dark);
+}
+
+.delete-overlay {
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .7);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.checkout-items .delete-overlay {
+  display: none;
+}
+
+.checkout-items .delete-overlay.delete-confirm {
+  display: block;
+}
+
+.delete-overlay .card {
+  max-width: 17.7em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -36,13 +73,25 @@
     right: .65rem;
   }
 
+  .checkout-card h3 {
+    padding-right: 2.8rem;
+  }
+
   .checkout-card p:last-child {
     margin: 0;
+  }
+
+  .delete-overlay .card {
+    max-width: 20em;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
+
+  .checkout-card h3 {
+    padding-right: 3rem;
+  }
 
   .product-quantity {
     bottom: .7rem;
