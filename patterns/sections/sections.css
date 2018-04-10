@@ -13,3 +13,7 @@
 .section-highlight-medium {
   background-color: var(--color-grey-light);
 }
+
+.section-highlight-dark {
+  background-color: var(--color-grey-medium);
+}

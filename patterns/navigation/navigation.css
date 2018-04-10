@@ -70,39 +70,32 @@ li.bread-crumbs-active {
 
 .product-sort .unit {
   display: none;
-  /* width: 0; */
   overflow: hidden!important;
   transition: width .25s;
 }
 
 .category-all .unit {
-  display: block;
-  /* width: 33%; */
+  display: flex;
 }
 
 .category-board-games .board-games {
-  display: block;
-  /* width: 33%; */
+  display: flex;
 }
 
 .category-card-games .card-games {
-  display: block;
-  /* width: 33%; */
+  display: flex;
 }
 
 .category-rpgs .rpgs {
-  display: block;
-  /* width: 33%; */
+  display: flex;
 }
 
 .category-dice .dice {
-  display: block;
-  /* width: 33%; */
+  display: flex;
 }
 
 .category-other .other {
-  display: block;
-  /* width: 33%; */
+  display: flex;
 }
 
 .products select,

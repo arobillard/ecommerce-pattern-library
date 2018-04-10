@@ -66,12 +66,28 @@ mark {
   background-color: var(--color-primary-light);
 }
 
+hr {
+  border-color: var(--color-secondary);
+}
+
 .text-primary {
   color: var(--color-primary);
 }
 
 .font-medium {
   font-weight: 500;
+}
+
+.border-bottom-secondary {
+  border-bottom: 2px solid var(--color-secondary);
+}
+
+.border-bottom-grey-medium {
+  border-bottom: 2px solid var(--color-grey-medium);
+}
+
+.border-bottom-grey-light {
+  border-bottom: 2px solid var(--color-grey-light);
 }
 
 @media only screen and (min-width: 38em) {

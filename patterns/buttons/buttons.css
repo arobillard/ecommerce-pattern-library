@@ -47,3 +47,21 @@ button:focus,
   border-color: var(--color-primary);
   color: #fff;
 }
+
+.btn-paypal {
+  background-color: #ffc439;
+  border-color: #ffc439;
+  padding: .395em 1.275em .1875em;
+}
+
+.btn-paypal:hover,
+.btn-paypal:active,
+.btn-paypal:focus {
+  background-color: #f1b943;
+  border-color: #f1b943;
+}
+
+.btn-paypal img {
+  height: 1rem;
+  width: auto;
+}

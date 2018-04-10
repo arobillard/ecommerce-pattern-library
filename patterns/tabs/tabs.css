@@ -9,7 +9,7 @@
 }
 
 .section-tab-btns li {
-  border-bottom: 2px solid var(--color-grey-medium);
+  border-bottom: 2px solid var(--color-secondary);
   transition: border-color .25s;
   padding: .65rem;
 }
