@@ -1168,7 +1168,7 @@
   &lt;/div>
   &lt;div class="unit unit-content-distribute [ xs-3-4 ] island-1-4">
     &lt;h3 class="push-0 mega">Product Name&lt;/h3>
-    &lt;p class="push-0 content-fill milli">Product Description&lt;/p>
+    &lt;p class="push-0 italic content-fill milli">Product Description&lt;/p>
     &lt;p class="push-0">$&lt;span class="checkout-item-price">50.99&lt;/span>&lt;/p>
     &lt;div class="product-quantity">
       &lt;label class="push-r-1-2 milli" for="product-quantity">Quantity&lt;/label>
@@ -1252,7 +1252,7 @@
     &lt;p class="text-center">Are you sure you want to remove &lt;span class="delete-item-name bold">Product 1&lt;/span> from your cart?
       &lt;ul class="list-group-inline text-center push-0 milli">
         &lt;li class="gutter-1-2">&lt;a class="btn delete-confirmed" href="#" tabindex="1">Yes&lt;/a>&lt;/li>
-        &lt;li class="gutter-1-2">&lt;a class="btn btn-ghost delete-confirm-close" href="#" tabindex="1">No&lt;/a>&lt;/li>
+        &lt;li class="gutter-1-2">&lt;a class="btn btn-secondary delete-confirm-close" href="#" tabindex="1">No&lt;/a>&lt;/li>
       &lt;/ul>
     &lt;/p>
   &lt;/div>
@@ -1397,13 +1397,13 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-product-card-code-sample-copy-chunk">&lt;a class="card" href="#"&gt;
+              <code><pre id="cards-product-card-code-sample-copy-chunk">&lt;a class="card content-fill unit-content-distribute" href="#"&gt;
   &lt;div class="embed embed-1by1">
     &lt;img class="embed-item" src="https://placehold.it/420x420" alt="">
   &lt;/div>
-  &lt;div class="island-1-2">
+  &lt;div class="island-1-2 unit-content-distribute content-fill">
     &lt;h3 class="push-0 mega">Settlers of Catan&lt;/h3>
-    &lt;p class="italic">Trade, build, settle.&lt;/p>
+    &lt;p class="italic content-fill">Trade, build, settle.&lt;/p>
     &lt;p class="tera font-medium text-primary push-0">$50.99&lt;/p>
   &lt;/div>
 &lt;/a>
@@ -1477,32 +1477,16 @@
               </button>
               <code><pre id="checkout-totals-code-sample-copy-chunk">&lt;div class="grid island-1-2 checkout-totals mega"&gt;
   &lt;div class="unit xs-1 m-1-2 unit-offset-m-1-2 island-1-2">
-    &lt;div class="grid">
-      &lt;div class="unit xs-1-2 pad-t-1-2 pad-b-1-2">
-        &lt;p class="push-0">Subtotal:&lt;/p>
-      &lt;/div>
-      &lt;div class="unit xs-1-2 pad-t-1-2 pad-b-1-2">
-        &lt;p class="push-0">$131.96&lt;/p>
-      &lt;/div>
-      &lt;div class="unit xs-1-2 pad-t-1-2 pad-b-1-2">
-        &lt;p class="push-0">Shipping:&lt;/p>
-      &lt;/div>
-      &lt;div class="unit xs-1-2 pad-t-1-2 pad-b-1-2">
-        &lt;p class="push-0">$7.99&lt;/p>
-      &lt;/div>
-      &lt;div class="unit xs-1-2 pad-t-1-2 pad-b">
-        &lt;p class="push-0">Taxes:&lt;/p>
-      &lt;/div>
-      &lt;div class="unit xs-1-2 pad-t-1-2 pad-b">
-        &lt;p class="push-0">$18.19&lt;/p>
-      &lt;/div>
-      &lt;div class="unit xs-1-2 checkout-total pad-t pad-b-1-2">
-        &lt;p class="push-0">Total:&lt;/p>
-      &lt;/div>
-      &lt;div class="unit xs-1-2 checkout-total pad-t pad-b-1-2">
-        &lt;p class="push-0">$158.14&lt;/p>
-      &lt;/div>
-    &lt;/div>
+    &lt;dl class="grid">
+      &lt;dt class="unit xs-1-2 push-0 pad-t-1-2 pad-b-1-2">Subtotal:&lt;/dt>
+      &lt;dd class="unit xs-1-2 push-0 pad-t-1-2 pad-b-1-2">$131.96&lt;/dd>
+      &lt;dt class="unit xs-1-2 push-0 pad-t-1-2 pad-b-1-2">Shipping:&lt;/dt>
+      &lt;dd class="unit xs-1-2 push-0 pad-t-1-2 pad-b-1-2">$7.99&lt;/dd>
+      &lt;dt class="unit xs-1-2 push-0 pad-t-1-2 pad-b">Taxes:&lt;/dt>
+      &lt;dd class="unit xs-1-2 push-0 pad-t-1-2 pad-b">$18.19&lt;/dd>
+      &lt;dt class="unit xs-1-2 push-0 checkout-total pad-t pad-b-1-2">Total:&lt;/dt>
+      &lt;dd class="unit xs-1-2 push-0 checkout-total pad-t pad-b-1-2">$158.14&lt;/dd>
+    &lt;/dl>
   &lt;/div>
 &lt;/div>
 </pre></code>
@@ -1670,7 +1654,9 @@
     <h2 class="pattern-name exa push-1-4" style="color: #00953b; font-family: ;">Forms</h2>
       <nav class="pattern-nav">
         <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#forms--add-to-cart">Add to cart</a></li>
             <li><a href="#forms--checkbox">Checkbox</a></li>
+            <li><a href="#forms--error-message">Error message</a></li>
             <li><a href="#forms--numbers">Numbers</a></li>
             <li><a href="#forms--password">Password</a></li>
             <li><a href="#forms--radio">Radio</a></li>
@@ -1688,6 +1674,74 @@
 
   
 
+    <div class="pattern-details " id="forms--add-to-cart" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Add to cart</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-add-to-cart-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/add-to-cart" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/add-to-cart.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>Used to set quantity of item and then adding it to cart on product description page.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="width:400px">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/add-to-cart.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-add-to-cart-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-add-to-cart-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-add-to-cart-code-sample-copy-chunk">&lt;div class="product-quantity inline-block"&gt;
+  &lt;label class="push-r-1-2 milli" for="product-quantity">Add to Cart&lt;/label>
+  &lt;input class="milli" id="product-quantity" name="product-quantity" value="1">
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details " id="forms--checkbox" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Checkbox</h3>
@@ -1747,16 +1801,80 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-checkbox-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
-  &lt;div class="push">
-    &lt;input class="push-1-2" id="checked" name="checkbox-button-checked" type="checkbox" checked>
-    &lt;label for="checked">Checked&lt;/label>
-  &lt;/div>
-  &lt;div>
-    &lt;input class="push-1-2" id="unchecked" name="checkbox-button-unchecked" type="checkbox">
-    &lt;label for="unchecked">Unchecked&lt;/label>
-  &lt;/div>
-&lt;/form>
+              <code><pre id="forms-checkbox-code-sample-copy-chunk">&lt;div class="push"&gt;
+  &lt;input class="push-1-2" id="unchecked" name="checkbox-button-unchecked" type="checkbox">
+  &lt;label for="unchecked">Unchecked&lt;/label>
+&lt;/div>
+&lt;div class="push">
+  &lt;input class="push-1-2" id="checked" name="checkbox-button-checked" type="checkbox" checked>
+  &lt;label for="checked">Checked&lt;/label>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--error-message" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Error message</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-error-message-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/error-message" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/error-message.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/error-message.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-error-message-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-error-message-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-error-message-code-sample-copy-chunk">&lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive"&gt;
+  &lt;h3 class="push-0">
+      &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">There are items that require your attention.&lt;/span>
+    &lt;/h3>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -1821,22 +1939,14 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-numbers-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class="push-0">
-        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">There are items that require your attention.&lt;/span>
-      &lt;/h3>
-  &lt;/div>
-  &lt;div class="push">
-    &lt;input type="number" class="push-1-2" id="number-input" name="number-input" required>
-    &lt;label for="number-input">Number Input&lt;/label>
-    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please fill out this required field.&lt;/span>
-    &lt;/p>
-  &lt;/div>
-&lt;/form>
+              <code><pre id="forms-numbers-code-sample-copy-chunk">&lt;div class="push"&gt;
+  &lt;input type="number" class="push-1-2" id="number-input" name="number-input" max="" required>
+  &lt;label for="number-input">Number Input&lt;/label>
+  &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please fill out this required field.&lt;/span>
+  &lt;/p>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -1901,22 +2011,14 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-password-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class="push-0">
-        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">There are items that require your attention.&lt;/span>
-      &lt;/h3>
-  &lt;/div>
-  &lt;div class="push">
-    &lt;input class="push-1-2" id="text-input" name="text-input" type="password" required>
-    &lt;label for="text-input">Password Input&lt;/label>
-    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please fill out this required field.&lt;/span>
-    &lt;/p>
-  &lt;/div>
-&lt;/form>
+              <code><pre id="forms-password-code-sample-copy-chunk">&lt;div class="push"&gt;
+  &lt;input class="push-1-2" id="text-input" name="text-input" type="password" required>
+  &lt;label for="text-input">Password Input&lt;/label>
+  &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please fill out this required field.&lt;/span>
+  &lt;/p>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -1981,16 +2083,14 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-radio-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
-  &lt;div class="push">
-    &lt;input class="push-1-2" id="radio" name="radio-button" type="radio" checked>
-    &lt;label for="radio">Checked&lt;/label>
-  &lt;/div>
-  &lt;div>
-    &lt;input class="push-1-2" id="unchecked" name="radio-button" type="radio">
-    &lt;label for="unchecked">Unchecked&lt;/label>
-  &lt;/div>
-&lt;/form>
+              <code><pre id="forms-radio-code-sample-copy-chunk">&lt;div class="push"&gt;
+  &lt;input class="push-1-2" id="radio-unchecked" name="radio-button" type="radio">
+  &lt;label for="radio-unchecked">Unchecked&lt;/label>
+&lt;/div>
+&lt;div>
+  &lt;input class="push-1-2" id="radio-checked" name="radio-button" type="radio" checked>
+  &lt;label for="radio-checked">Checked&lt;/label>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -2055,27 +2155,19 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-select-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class="push-0">
-        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">There are items that require your attention.&lt;/span>
-      &lt;/h3>
-  &lt;/div>
-  &lt;div class="push">
-    &lt;select class="push-1-2" id="text-input" name="text-input" required>
-      &lt;option value="">Select an option&lt;/option>
-      &lt;option value="option-1">Option 1&lt;/option>
-      &lt;option value="option-2">Option 2&lt;/option>
-      &lt;option value="option-3">Option 3&lt;/option>
-    &lt;/select>
-    &lt;label for="text-input">Select an item.&lt;/label>
-    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please fill out this required field.&lt;/span>
-    &lt;/p>
-  &lt;/div>
-&lt;/form>
+              <code><pre id="forms-select-code-sample-copy-chunk">&lt;div class="push"&gt;
+  &lt;select class="push-1-2" id="text-input" name="text-input" required>
+    &lt;option value="">Select an option&lt;/option>
+    &lt;option value="option-1">Option 1&lt;/option>
+    &lt;option value="option-2">Option 2&lt;/option>
+    &lt;option value="option-3">Option 3&lt;/option>
+  &lt;/select>
+  &lt;label for="text-input">Select an item.&lt;/label>
+  &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please fill out this required field.&lt;/span>
+  &lt;/p>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -2140,22 +2232,14 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-text-area-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class="push-0">
-        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">There are items that require your attention.&lt;/span>
-      &lt;/h3>
-  &lt;/div>
-  &lt;div class="push">
-    &lt;textarea class="push-1-2" id="text-area" name="text-area" required>&lt;/textarea>
-    &lt;label for="text-area">Text Area&lt;/label>
-    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please fill out this required field.&lt;/span>
-    &lt;/p>
-  &lt;/div>
-&lt;/form>
+              <code><pre id="forms-text-area-code-sample-copy-chunk">&lt;div class="push"&gt;
+  &lt;textarea class="push-1-2" id="text-area" name="text-area" required>&lt;/textarea>
+  &lt;label for="text-area">Text Area&lt;/label>
+  &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please fill out this required field.&lt;/span>
+  &lt;/p>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -2220,22 +2304,14 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-text-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class="push-0">
-        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">There are items that require your attention.&lt;/span>
-      &lt;/h3>
-  &lt;/div>
-  &lt;div class="push">
-    &lt;input class="push-1-2" id="text-input" name="text-input" required>
-    &lt;label for="text-input">Text Input&lt;/label>
-    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please fill out this required field.&lt;/span>
-    &lt;/p>
-  &lt;/div>
-&lt;/form>
+              <code><pre id="forms-text-code-sample-copy-chunk">&lt;div class="push"&gt;
+  &lt;input class="push-1-2" id="text-input" name="text-input" required="true">
+  &lt;label for="text-input">Text Input&lt;/label>
+  &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please fill out this required field.&lt;/span>
+  &lt;/p>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -2534,8 +2610,10 @@
               </button>
               <code><pre id="navigation-product-categories-code-sample-copy-chunk">&lt;div class="grid gutter-1-2 wrapper pad-t pad-b"&gt;
   &lt;a href="#product-list" class="category-selector category-selected unit [ xs-1-3 m-1-6 ] island-1-2 text-center block" id="category-all">
-    &lt;div class="embed embed-1by1">
-      &lt;img class="embed-item" src="../../images/categories/category-sales.jpg" alt="">
+    &lt;div class="island">
+      &lt;div class="embed embed-1by1">
+        &lt;img class="embed-item" src="../../images/logo.svg" alt="">
+      &lt;/div>
     &lt;/div>
     &lt;p class="bold mega push-0">All&lt;/p>
   &lt;/a>
@@ -2727,53 +2805,55 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="photo-array-photo-array-code-sample-copy-chunk">&lt;div class="grid island-1-2 photo-array"&gt;
-  &lt;div class="unit [ xs-1 ] photo-array-main island-1-2">
-    &lt;a class="embed embed-1by1 photo-array-active block" href="#photo-array-focus">
-        &lt;img class="embed-item" src="https://placehold.it/100x100" alt="">
+              <code><pre id="photo-array-photo-array-code-sample-copy-chunk">&lt;div&gt;
+  &lt;div class="grid photo-array">
+    &lt;div class="unit [ xs-1 ] photo-array-main island-1-2">
+      &lt;a class="embed embed-1by1 photo-array-active block" href="#photo-array-focus">
+          &lt;img class="embed-item pa-photo-main" src="https://placehold.it/100x100" alt="">
+        &lt;/a>
+    &lt;/div>
+    &lt;div class="unit [ xs-1-2 s-1-4 ] island-1-2">
+      &lt;a class="photo-array-btn block photo-array-btn-selected embed embed-1by1" href="#photo-array-1">
+          &lt;img class="embed-item pa-photo-1" src="https://placehold.it/100x100" alt="">
+        &lt;/a>
+    &lt;/div>
+    &lt;div class="unit [ xs-1-2 s-1-4 ] island-1-2">
+      &lt;a class="photo-array-btn block embed embed-1by1" href="#photo-array-2">
+          &lt;img class="embed-item pa-photo-2" src="https://placehold.it/200x200" alt="">
+        &lt;/a>
+    &lt;/div>
+    &lt;div class="unit [ xs-1-2 s-1-4 ] island-1-2">
+      &lt;a class="photo-array-btn block embed embed-1by1" href="#photo-array-3">
+          &lt;img class="embed-item pa-photo-3" src="https://placehold.it/300x300" alt="">
+        &lt;/a>
+    &lt;/div>
+    &lt;div class="unit [ xs-1-2 s-1-4 ] island-1-2">
+      &lt;a class="photo-array-btn block embed embed-1by1" href="#photo-array-4">
+          &lt;img class="embed-item pa-photo-4" src="https://placehold.it/400x400" alt="">
+        &lt;/a>
+    &lt;/div>
+  &lt;/div>
+  &lt;div id="photo-array-focus" class="photo-array-focus">
+    &lt;img src="https://placehold.it/100x100" alt="">
+    &lt;a class="photo-array-focus-next" href="#">
+        &lt;i class="icon i-3rem">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#next"/>&lt;/svg>
+        &lt;/i>
+        &lt;span class="icon-label hidden">Next&lt;/span>
+      &lt;/a>
+    &lt;a class="photo-array-focus-previous" href="#">
+        &lt;i class="icon i-3rem">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#previous"/>&lt;/svg>
+        &lt;/i>
+        &lt;span class="icon-label hidden">Previous&lt;/span>
+      &lt;/a>
+    &lt;a class="photo-array-focus-close" href="#">
+        &lt;i class="icon i-1-5rem">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#close"/>&lt;/svg>
+        &lt;/i>
+        &lt;span class="icon-label hidden">Close&lt;/span>
       &lt;/a>
   &lt;/div>
-  &lt;div class="unit [ xs-1-2 s-1-4 ] island-1-2">
-    &lt;a class="photo-array-btn block photo-array-btn-selected embed embed-1by1" href="#photo-array-1">
-        &lt;img class="embed-item" src="https://placehold.it/100x100" alt="">
-      &lt;/a>
-  &lt;/div>
-  &lt;div class="unit [ xs-1-2 s-1-4 ] island-1-2">
-    &lt;a class="photo-array-btn block embed embed-1by1" href="#photo-array-2">
-        &lt;img class="embed-item" src="https://placehold.it/200x200" alt="">
-      &lt;/a>
-  &lt;/div>
-  &lt;div class="unit [ xs-1-2 s-1-4 ] island-1-2">
-    &lt;a class="photo-array-btn block embed embed-1by1" href="#photo-array-3">
-        &lt;img class="embed-item" src="https://placehold.it/300x300" alt="">
-      &lt;/a>
-  &lt;/div>
-  &lt;div class="unit [ xs-1-2 s-1-4 ] island-1-2">
-    &lt;a class="photo-array-btn block embed embed-1by1" href="#photo-array-4">
-        &lt;img class="embed-item" src="https://placehold.it/400x400" alt="">
-      &lt;/a>
-  &lt;/div>
-&lt;/div>
-&lt;div id="photo-array-focus" class="photo-array-focus">
-  &lt;img src="https://placehold.it/100x100" alt="">
-  &lt;a class="photo-array-focus-next" href="#">
-      &lt;i class="icon i-3rem">
-        &lt;svg>&lt;use xlink:href="../../images/icons.svg#next"/>&lt;/svg>
-      &lt;/i>
-      &lt;span class="icon-label hidden">Next&lt;/span>
-    &lt;/a>
-  &lt;a class="photo-array-focus-previous" href="#">
-      &lt;i class="icon i-3rem">
-        &lt;svg>&lt;use xlink:href="../../images/icons.svg#previous"/>&lt;/svg>
-      &lt;/i>
-      &lt;span class="icon-label hidden">Previous&lt;/span>
-    &lt;/a>
-  &lt;a class="photo-array-focus-close" href="#">
-      &lt;i class="icon i-1-5rem">
-        &lt;svg>&lt;use xlink:href="../../images/icons.svg#close"/>&lt;/svg>
-      &lt;/i>
-      &lt;span class="icon-label hidden">Close&lt;/span>
-    &lt;/a>
 &lt;/div>
 </pre></code>
             </div>

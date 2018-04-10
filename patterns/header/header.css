@@ -149,17 +149,6 @@ li.xs-hidden {
 
 @media only screen and (min-width: 38em) {
 
-  input,
-  textarea {
-    display: block;
-    width: 100%;
-
-    background-color: #fff;
-    border: 2px solid var(--color-grey-medium);
-    border-bottom: 2px solid var(--color-primary);
-    border-radius: 0;
-  }
-
   .search-label .icon {
     z-index: 1000;
     transition: transform .35s;

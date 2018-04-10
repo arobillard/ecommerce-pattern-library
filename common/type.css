@@ -247,6 +247,7 @@ textarea {
 }
 
 small,
+label,
 .milli {
   font-size: .8333rem;
   line-height: 1.3rem;
@@ -553,6 +554,7 @@ legend {
     line-height: 1.4rem;
   }
 
+  label,
   small,
   .milli {
     font-size: .8rem;
@@ -882,6 +884,7 @@ legend {
     line-height: 1.5rem;
   }
 
+  label,
   small,
   .milli {
     font-size: .7502rem;
@@ -1212,6 +1215,7 @@ legend {
   }
 
   small,
+  label,
   .milli {
     font-size: .7502rem;
     line-height: 1.125rem;

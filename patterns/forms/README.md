@@ -1,4 +1,8 @@
 ---
+add-to-cart:
+  width: 400
+  desc: |
+    Used to set quantity of item and then adding it to cart on product description page.
 checkbox:
   width: 400
   desc: |

@@ -15,7 +15,8 @@ $('.photo-array-active').on('click', function () {
   $('.photo-array-focus img').attr('src', imgSource);
 });
 
-$('.photo-array-focus').on('click', function () {
+$('.photo-array-focus').on('click', function (e) {
+  e.preventDefault();
   $('.photo-array-focus').removeClass('photo-array-focus-open');
 });
 
@@ -25,7 +26,8 @@ var photoArray3 = $('[href="#photo-array-3"] img').attr('src');
 var photoArray4 = $('[href="#photo-array-4"] img').attr('src');
 
 $('.photo-array-focus-next').on('click', function (e) {
-  e.stopImmediatePropagation()
+  e.stopImmediatePropagation();
+  e.preventDefault();
   switch ($('.photo-array-focus img').attr('src')) {
     case photoArray1:
       $('.photo-array-focus img').attr('src', photoArray2);
@@ -43,7 +45,8 @@ $('.photo-array-focus-next').on('click', function (e) {
 });
 
 $('.photo-array-focus-previous').on('click', function (e) {
-  e.stopImmediatePropagation()
+  e.stopImmediatePropagation();
+  e.preventDefault();
   switch ($('.photo-array-focus img').attr('src')) {
     case photoArray1:
       $('.photo-array-focus img').attr('src', photoArray4);

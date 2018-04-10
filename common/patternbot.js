@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library
- * @version 4bc606684cb6431be47a65751ddf3959ee02a366
+ * @version a69915edd51bf28bb4a565c5dda3ddef361e02c6
  */
-const patternManifest_4bc606684cb6431be47a65751ddf3959ee02a366 = {
+const patternManifest_a69915edd51bf28bb4a565c5dda3ddef361e02c6 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -913,6 +913,16 @@ const patternManifest_4bc606684cb6431be47a65751ddf3959ee02a366 = {
       "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
+          "name": "add-to-cart",
+          "namePretty": "Add to cart",
+          "filename": "add-to-cart",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/add-to-cart.html",
+          "localPath": "patterns/forms/add-to-cart.html",
+          "readme": {
+            "width": 400
+          }
+        },
+        {
           "name": "checkbox",
           "namePretty": "Checkbox",
           "filename": "checkbox",
@@ -921,6 +931,13 @@ const patternManifest_4bc606684cb6431be47a65751ddf3959ee02a366 = {
           "readme": {
             "width": 400
           }
+        },
+        {
+          "name": "error-message",
+          "namePretty": "Error message",
+          "filename": "error-message",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/error-message.html",
+          "localPath": "patterns/forms/error-message.html"
         },
         {
           "name": "numbers",
@@ -1001,7 +1018,15 @@ const patternManifest_4bc606684cb6431be47a65751ddf3959ee02a366 = {
           "localPath": "patterns/forms/forms.css"
         }
       ],
-      "js": []
+      "js": [
+        {
+          "name": "forms",
+          "namePretty": "Forms",
+          "filename": "forms",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/forms.js",
+          "localPath": "patterns/forms/forms.js"
+        }
+      ]
     },
     {
       "name": "header",
@@ -1262,5 +1287,5 @@ const patternManifest_4bc606684cb6431be47a65751ddf3959ee02a366 = {
   }
 };
 
-patternBotIncludes(patternManifest_4bc606684cb6431be47a65751ddf3959ee02a366);
+patternBotIncludes(patternManifest_a69915edd51bf28bb4a565c5dda3ddef361e02c6);
 }());
