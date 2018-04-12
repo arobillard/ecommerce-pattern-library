@@ -104,7 +104,8 @@ select.sort {
 
 .shipping-disabled input:not([type="checkbox"]):not([type="radio"]),
 .shipping-disabled textarea,
-.shipping-disabled select {
+.shipping-disabled select,
+.shipping-disabled label {
   filter: grayscale(1);
   opacity: .5;
 }
