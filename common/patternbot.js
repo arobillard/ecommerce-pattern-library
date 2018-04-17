@@ -443,10 +443,10 @@ const patternBotIncludes = function (manifest) {
 
 /** 
  * Patternbot library manifest
- * /Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library
- * @version 3e98e4806b2f43e8faf020f1b06486c2b0c55ccf
+ * /Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library
+ * @version 1c0c417e6a2accc1a7439cb31ab49655a8c6cfa1
  */
-const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
+const patternManifest_1c0c417e6a2accc1a7439cb31ab49655a8c6cfa1 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -645,54 +645,54 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
   },
   "patternLibFiles": {
     "commonParsable": {
-      "gridifier": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/common/grid.css",
-      "typografier": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/common/type.css",
-      "modulifier": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/common/modules.css",
-      "theme": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/common/theme.css"
+      "gridifier": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/common/grid.css",
+      "typografier": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/common/type.css",
+      "modulifier": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/common/modules.css",
+      "theme": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/common/theme.css"
     },
     "imagesParsable": {
-      "icons": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/images/icons.svg"
+      "icons": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/images/icons.svg"
     },
     "logos": {
-      "sizeLarge": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/images/logo.svg",
+      "sizeLarge": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/images/logo.svg",
       "size64": false,
       "size32": false,
       "size16": false,
       "sizeLargeLocal": "logo.svg"
     },
     "patterns": [
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/banners",
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/buttons",
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/cards",
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/checkout",
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/footer",
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms",
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/header",
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/navigation",
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/photo-array",
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/sections",
-      "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/tabs"
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/banners",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/buttons",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/checkout",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/footer",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/header",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections",
+      "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs"
     ],
     "pages": [
       {
         "name": "checkout.html",
         "namePretty": "Checkout",
-        "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/pages/checkout.html"
+        "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/pages/checkout.html"
       },
       {
         "name": "home.html",
         "namePretty": "Home",
-        "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/pages/home.html"
+        "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/pages/home.html"
       },
       {
         "name": "product-details.html",
         "namePretty": "Product details",
-        "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/pages/product-details.html"
+        "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/pages/product-details.html"
       },
       {
         "name": "products.html",
         "namePretty": "Products",
-        "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/pages/products.html"
+        "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/pages/products.html"
       }
     ],
     "js": []
@@ -701,13 +701,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "banners",
       "namePretty": "Banners",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/banners",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/banners",
       "html": [
         {
           "name": "banner",
           "namePretty": "Banner",
           "filename": "banner",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/banners/banner.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/banners/banner.html",
           "localPath": "patterns/banners/banner.html",
           "readme": {}
         }
@@ -717,7 +717,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/banners/README.md",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/banners/README.md",
           "localPath": "patterns/banners/README.md"
         }
       ],
@@ -726,7 +726,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "banners",
           "namePretty": "Banners",
           "filename": "banners",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/banners/banners.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/banners/banners.css",
           "localPath": "patterns/banners/banners.css"
         }
       ],
@@ -735,13 +735,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "buttons",
       "namePretty": "Buttons",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/buttons",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/buttons",
       "html": [
         {
           "name": "buttons",
           "namePretty": "Buttons",
           "filename": "buttons",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/buttons/buttons.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/buttons/buttons.html",
           "localPath": "patterns/buttons/buttons.html"
         }
       ],
@@ -750,7 +750,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/buttons/README.md",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/buttons/README.md",
           "localPath": "patterns/buttons/README.md"
         }
       ],
@@ -759,7 +759,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "buttons",
           "namePretty": "Buttons",
           "filename": "buttons",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/buttons/buttons.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/buttons/buttons.css",
           "localPath": "patterns/buttons/buttons.css"
         }
       ],
@@ -768,13 +768,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "cards",
       "namePretty": "Cards",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/cards",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
           "name": "category-cards",
           "namePretty": "Category cards",
           "filename": "category-cards",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/cards/category-cards.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/category-cards.html",
           "localPath": "patterns/cards/category-cards.html",
           "readme": {
             "width": 600,
@@ -785,7 +785,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "checkout-card",
           "namePretty": "Checkout card",
           "filename": "checkout-card",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/cards/checkout-card.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/checkout-card.html",
           "localPath": "patterns/cards/checkout-card.html",
           "readme": {
             "width": 600,
@@ -796,7 +796,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "delete-confirmation",
           "namePretty": "Delete confirmation",
           "filename": "delete-confirmation",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/cards/delete-confirmation.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/delete-confirmation.html",
           "localPath": "patterns/cards/delete-confirmation.html",
           "readme": {
             "height": 600
@@ -806,7 +806,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "preview-card",
           "namePretty": "Preview card",
           "filename": "preview-card",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/cards/preview-card.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/preview-card.html",
           "localPath": "patterns/cards/preview-card.html",
           "readme": {
             "width": 600,
@@ -817,7 +817,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "product-card",
           "namePretty": "Product card",
           "filename": "product-card",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/cards/product-card.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/product-card.html",
           "localPath": "patterns/cards/product-card.html",
           "readme": {
             "width": 500,
@@ -830,7 +830,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/cards/README.md",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/README.md",
           "localPath": "patterns/cards/README.md"
         }
       ],
@@ -839,7 +839,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "cards",
           "namePretty": "Cards",
           "filename": "cards",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/cards/cards.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
         }
       ],
@@ -848,7 +848,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "cards",
           "namePretty": "Cards",
           "filename": "cards",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/cards/cards.js",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/cards/cards.js",
           "localPath": "patterns/cards/cards.js"
         }
       ]
@@ -856,13 +856,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "checkout",
       "namePretty": "Checkout",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/checkout",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/checkout",
       "html": [
         {
           "name": "totals",
           "namePretty": "Totals",
           "filename": "totals",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/checkout/totals.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/checkout/totals.html",
           "localPath": "patterns/checkout/totals.html"
         }
       ],
@@ -872,7 +872,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "checkout",
           "namePretty": "Checkout",
           "filename": "checkout",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/checkout/checkout.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/checkout/checkout.css",
           "localPath": "patterns/checkout/checkout.css"
         }
       ],
@@ -881,13 +881,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "footer",
       "namePretty": "Footer",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/footer",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/footer",
       "html": [
         {
           "name": "footer",
           "namePretty": "Footer",
           "filename": "footer",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/footer/footer.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/footer/footer.html",
           "localPath": "patterns/footer/footer.html",
           "readme": {}
         }
@@ -897,7 +897,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/footer/README.md",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/footer/README.md",
           "localPath": "patterns/footer/README.md"
         }
       ],
@@ -906,7 +906,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "footer",
           "namePretty": "Footer",
           "filename": "footer",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/footer/footer.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/footer/footer.css",
           "localPath": "patterns/footer/footer.css"
         }
       ],
@@ -915,13 +915,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "forms",
       "namePretty": "Forms",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
           "name": "add-to-cart",
           "namePretty": "Add to cart",
           "filename": "add-to-cart",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/add-to-cart.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/add-to-cart.html",
           "localPath": "patterns/forms/add-to-cart.html",
           "readme": {
             "width": 400
@@ -931,7 +931,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "checkbox",
           "namePretty": "Checkbox",
           "filename": "checkbox",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/checkbox.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/checkbox.html",
           "localPath": "patterns/forms/checkbox.html",
           "readme": {
             "width": 400
@@ -941,14 +941,14 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "error-message",
           "namePretty": "Error message",
           "filename": "error-message",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/error-message.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/error-message.html",
           "localPath": "patterns/forms/error-message.html"
         },
         {
           "name": "numbers",
           "namePretty": "Numbers",
           "filename": "numbers",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/numbers.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/numbers.html",
           "localPath": "patterns/forms/numbers.html",
           "readme": {
             "width": 400
@@ -958,7 +958,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "password",
           "namePretty": "Password",
           "filename": "password",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/password.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/password.html",
           "localPath": "patterns/forms/password.html",
           "readme": {
             "width": 400
@@ -968,7 +968,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "radio",
           "namePretty": "Radio",
           "filename": "radio",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/radio.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/radio.html",
           "localPath": "patterns/forms/radio.html",
           "readme": {
             "width": 400
@@ -978,7 +978,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "select",
           "namePretty": "Select",
           "filename": "select",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/select.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/select.html",
           "localPath": "patterns/forms/select.html",
           "readme": {
             "width": 400
@@ -988,7 +988,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "text-area",
           "namePretty": "Text area",
           "filename": "text-area",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/text-area.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/text-area.html",
           "localPath": "patterns/forms/text-area.html",
           "readme": {
             "width": 400
@@ -998,7 +998,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "text",
           "namePretty": "Text",
           "filename": "text",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/text.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/text.html",
           "localPath": "patterns/forms/text.html",
           "readme": {
             "width": 400
@@ -1010,7 +1010,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/README.md",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/README.md",
           "localPath": "patterns/forms/README.md"
         }
       ],
@@ -1019,7 +1019,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "forms",
           "namePretty": "Forms",
           "filename": "forms",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/forms.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
         }
       ],
@@ -1028,7 +1028,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "forms",
           "namePretty": "Forms",
           "filename": "forms",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/forms/forms.js",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/forms.js",
           "localPath": "patterns/forms/forms.js"
         }
       ]
@@ -1036,13 +1036,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "header",
       "namePretty": "Header",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/header",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/header",
       "html": [
         {
           "name": "header",
           "namePretty": "Header",
           "filename": "header",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/header/header.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/header/header.html",
           "localPath": "patterns/header/header.html",
           "readme": {
             "height": 400
@@ -1054,7 +1054,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/header/README.md",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/header/README.md",
           "localPath": "patterns/header/README.md"
         }
       ],
@@ -1063,7 +1063,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "header",
           "namePretty": "Header",
           "filename": "header",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/header/header.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/header/header.css",
           "localPath": "patterns/header/header.css"
         }
       ],
@@ -1072,7 +1072,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "header",
           "namePretty": "Header",
           "filename": "header",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/header/header.js",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/header/header.js",
           "localPath": "patterns/header/header.js"
         }
       ]
@@ -1080,13 +1080,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "navigation",
       "namePretty": "Navigation",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/navigation",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation",
       "html": [
         {
           "name": "bread-crumbs",
           "namePretty": "Bread crumbs",
           "filename": "bread-crumbs",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/navigation/bread-crumbs.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation/bread-crumbs.html",
           "localPath": "patterns/navigation/bread-crumbs.html",
           "readme": {}
         },
@@ -1094,7 +1094,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "product-categories",
           "namePretty": "Product categories",
           "filename": "product-categories",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/navigation/product-categories.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation/product-categories.html",
           "localPath": "patterns/navigation/product-categories.html",
           "readme": {}
         },
@@ -1102,7 +1102,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "product-search",
           "namePretty": "Product search",
           "filename": "product-search",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/navigation/product-search.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation/product-search.html",
           "localPath": "patterns/navigation/product-search.html",
           "readme": {}
         }
@@ -1112,7 +1112,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/navigation/README.md",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation/README.md",
           "localPath": "patterns/navigation/README.md"
         }
       ],
@@ -1121,7 +1121,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "navigation",
           "namePretty": "Navigation",
           "filename": "navigation",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/navigation/navigation.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation/navigation.css",
           "localPath": "patterns/navigation/navigation.css"
         }
       ],
@@ -1130,7 +1130,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "navigation",
           "namePretty": "Navigation",
           "filename": "navigation",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/navigation/navigation.js",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/navigation/navigation.js",
           "localPath": "patterns/navigation/navigation.js"
         }
       ]
@@ -1138,13 +1138,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "photo-array",
       "namePretty": "Photo array",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/photo-array",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array",
       "html": [
         {
           "name": "photo-array",
           "namePretty": "Photo array",
           "filename": "photo-array",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/photo-array/photo-array.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array/photo-array.html",
           "localPath": "patterns/photo-array/photo-array.html",
           "readme": {
             "padding": "1.5rem"
@@ -1156,7 +1156,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/photo-array/README.md",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array/README.md",
           "localPath": "patterns/photo-array/README.md"
         }
       ],
@@ -1165,7 +1165,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "photo-array",
           "namePretty": "Photo array",
           "filename": "photo-array",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/photo-array/photo-array.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array/photo-array.css",
           "localPath": "patterns/photo-array/photo-array.css"
         }
       ],
@@ -1174,7 +1174,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "photo-array",
           "namePretty": "Photo array",
           "filename": "photo-array",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/photo-array/photo-array.js",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/photo-array/photo-array.js",
           "localPath": "patterns/photo-array/photo-array.js"
         }
       ]
@@ -1182,13 +1182,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "sections",
       "namePretty": "Sections",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/sections",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
           "name": "information-section",
           "namePretty": "Information section",
           "filename": "information-section",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/sections/information-section.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections/information-section.html",
           "localPath": "patterns/sections/information-section.html",
           "readme": {
             "padding": "1.5rem 0"
@@ -1200,7 +1200,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/sections/README.md",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections/README.md",
           "localPath": "patterns/sections/README.md"
         }
       ],
@@ -1209,7 +1209,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "sections",
           "namePretty": "Sections",
           "filename": "sections",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/sections/sections.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/sections/sections.css",
           "localPath": "patterns/sections/sections.css"
         }
       ],
@@ -1218,13 +1218,13 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
     {
       "name": "tabs",
       "namePretty": "Tabs",
-      "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/tabs",
+      "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs",
       "html": [
         {
           "name": "tab-bar",
           "namePretty": "Tab bar",
           "filename": "tab-bar",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/tabs/tab-bar.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/tab-bar.html",
           "localPath": "patterns/tabs/tab-bar.html",
           "readme": {
             "width": 700,
@@ -1235,7 +1235,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "tab-page",
           "namePretty": "Tab page",
           "filename": "tab-page",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/tabs/tab-page.html",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/tab-page.html",
           "localPath": "patterns/tabs/tab-page.html",
           "readme": {
             "width": 700,
@@ -1248,7 +1248,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/tabs/README.md",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/README.md",
           "localPath": "patterns/tabs/README.md"
         }
       ],
@@ -1257,7 +1257,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "tabs",
           "namePretty": "Tabs",
           "filename": "tabs",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/tabs/tabs.css",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/tabs.css",
           "localPath": "patterns/tabs/tabs.css"
         }
       ],
@@ -1266,7 +1266,7 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
           "name": "tabs",
           "namePretty": "Tabs",
           "filename": "tabs",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/arobillard/ecommerce-pattern-library/patterns/tabs/tabs.js",
+          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/tabs/tabs.js",
           "localPath": "patterns/tabs/tabs.js"
         }
       ]
@@ -1292,5 +1292,5 @@ const patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf = {
   }
 };
 
-patternBotIncludes(patternManifest_3e98e4806b2f43e8faf020f1b06486c2b0c55ccf);
+patternBotIncludes(patternManifest_1c0c417e6a2accc1a7439cb31ab49655a8c6cfa1);
 }());
