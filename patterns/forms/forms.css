@@ -102,3 +102,7 @@ select.sort {
   filter: grayscale(1);
   opacity: .5;
 }
+
+.product-quantity.inline-block {
+  position: static;
+}
