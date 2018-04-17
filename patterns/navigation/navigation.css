@@ -70,8 +70,6 @@ li.bread-crumbs-active {
 
 .product-sort .unit {
   display: none;
-  overflow: hidden!important;
-  transition: width .25s;
 }
 
 .category-all .unit {
