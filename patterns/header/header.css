@@ -129,14 +129,14 @@ li.xs-hidden {
   display: none;
 }
 
-.current {
-  color: var(--color-primary)!important;
+.masthead a.current {
+  color: var(--color-primary);
 }
 
-.current:hover,
-.current:focus,
-.current:active {
-  color: var(--color-primary-dark)!important;
+.masthead a.current:hover,
+.masthead a.current:focus,
+.masthead a.current:active {
+  color: var(--color-primary-dark);
 }
 
 @media only screen and (min-width: 25em) {

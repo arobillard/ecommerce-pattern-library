@@ -1,24 +1,17 @@
 input:not([type="checkbox"]):not([type="radio"]),
 textarea,
-select {
+select:not(.sort) {
   display: block;
   width: 100%;
 
   background-color: #fff;
   border: none;
   border-bottom: 2px solid var(--color-primary);
-  /* border-bottom-color: var(--color-primary); */
   border-radius: 0;
   padding: .25rem;
   height: auto;
   box-shadow: var(--shadow-primary);
 }
-/*
-input:not([type="checkbox"]):not([type="radio"]):invalid,
-textarea:invalid,
-select:invalid {
-  border-color: #f00;
-} */
 
 select {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Cpath fill='none' stroke='%2300953b' stroke-miterlimit='10' stroke-width='30' d='M36.3 82.1l91.9 91.8 91.5-91.8'/%3E%3C/svg%3E");
