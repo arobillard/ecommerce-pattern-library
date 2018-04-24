@@ -7,6 +7,10 @@
   display: block;
 }
 
+.card-overlay {
+  background: linear-gradient(to top, rgba(255, 255, 255, .5), rgba(255, 255, 255, .9)) top left / cover no-repeat;
+}
+
 .grid.card,
 .grid .card {
   display: flex;
@@ -67,6 +71,10 @@
 }
 
 @media only screen and (min-width: 25em) {
+
+  .card-overlay {
+    background: none;
+  }
 
   .product-quantity {
     position: absolute;
