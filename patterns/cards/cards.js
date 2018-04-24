@@ -1,4 +1,5 @@
 // Delete Item From checkout
+
 var removeItem;
 
 $('.delete-confirmed').on('click', function (e) {

@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library
- * @version 1c0c417e6a2accc1a7439cb31ab49655a8c6cfa1
+ * @version f57e99ffd7dff452fb75cbd32ede56cac2a3a32c
  */
-const patternManifest_1c0c417e6a2accc1a7439cb31ab49655a8c6cfa1 = {
+const patternManifest_f57e99ffd7dff452fb75cbd32ede56cac2a3a32c = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -938,13 +938,6 @@ const patternManifest_1c0c417e6a2accc1a7439cb31ab49655a8c6cfa1 = {
           }
         },
         {
-          "name": "error-message",
-          "namePretty": "Error message",
-          "filename": "error-message",
-          "path": "/Users/robillard-adam/OneDrive - Algonquin College/school-algonquin/graphic-design/semester-4/web-development-4/pattern-library/ecommerce-pattern-library/patterns/forms/error-message.html",
-          "localPath": "patterns/forms/error-message.html"
-        },
-        {
           "name": "numbers",
           "namePretty": "Numbers",
           "filename": "numbers",
@@ -1292,5 +1285,5 @@ const patternManifest_1c0c417e6a2accc1a7439cb31ab49655a8c6cfa1 = {
   }
 };
 
-patternBotIncludes(patternManifest_1c0c417e6a2accc1a7439cb31ab49655a8c6cfa1);
+patternBotIncludes(patternManifest_f57e99ffd7dff452fb75cbd32ede56cac2a3a32c);
 }());
